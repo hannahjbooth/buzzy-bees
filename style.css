@@ -10,6 +10,10 @@ body {
     font-family: "Poppins", sans-serif;    
 }
 
+body ul {
+    list-style-type: none;
+}
+
 main {
     background-color: #ff8b260d;
     width: 100%;
@@ -29,7 +33,6 @@ header {
 header, .logo-and-title, .links {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
     align-items: center;
 }
 
@@ -108,12 +111,38 @@ h2 {
 }
 
 /* Footer */
+footer {
+    color: #1b0e02fa;
+}
+
+.footer-title {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 1px;
+    color: #1b0e02fa;
+}
+
 
 .logo-banner {
     display: flex;
     justify-content: center;
-    height: 150px;
 }
+
+.logo-images {
+    display: inline-flex;
+    justify-content: center;
+    height: 200px;
+    width: auto;
+    border-style: solid;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color: #7a624d39;
+    
+}
+
 /* 
 .footer-logo1 {
     width: 254px;
@@ -134,6 +163,63 @@ h2 {
     width: 137px;
     height: 226px; 
 } */
+
+.footer-info-sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.footer-info-sections h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #1b0e02fa;
+}
+
+.footer-info-sections ul {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.footer-info-sections ul li {
+    display: flex;
+    justify-content: center;
+    color: #1b0e02fa;
+    font-weight: 300;
+
+}
+
+.weekdays {
+    max-width: 300px;
+    text-align: center;
+}
+
+.footer-contact-link {
+    background-color: #583b1ffa;
+    height: 56px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-contact-link:hover {
+    background-color: #7a624d;
+    transition: background-color 0.2s ease;
+}
+
+.copyright {
+    text-align: center;
+}
 
     /* Home: Hero Section */
 
