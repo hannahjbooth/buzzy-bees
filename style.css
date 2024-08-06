@@ -1,16 +1,19 @@
 /* Base styles */
 
+    /* Main styles */
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;    
 }
 
 main {
-    background-color: #c3bfcb;
+    background-color: #ff8b260d;
     width: 100%;
-    font-family: "Poppins", sans-serif;
+
 }
     /* Header and Nav */
 
@@ -94,6 +97,12 @@ nav li.plain a {
 nav li.button a {
     text-decoration: none;
     color: #ffffff;
+}
+
+    /* Home: Hero Section */
+
+.hero-section {
+    text-align: center;
 }
 
         /* Dynamic styling */
