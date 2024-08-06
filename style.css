@@ -73,6 +73,11 @@ li.button {
     font-weight: 400;
 }
 
+li.button:hover {
+    background-color: #7a624d;
+    transition: background-color 0.2s ease;
+}
+
 nav li.plain a {
     text-decoration: none;
     color: #583b1ffa;
