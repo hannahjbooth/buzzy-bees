@@ -149,7 +149,10 @@ footer {
     font-weight: 300;
 
 }
-
+.footer-navigation a {
+    text-decoration: none;
+    color: #1b0e02fa;
+}
 .weekdays {
     max-width: 300px;
     text-align: center;
