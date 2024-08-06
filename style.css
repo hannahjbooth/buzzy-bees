@@ -9,8 +9,8 @@ body {
 
 main {
     background-color: #c3bfcb;
-    width: 100%
-
+    width: 100%;
+    font-family: "Poppins", sans-serif;
 }
     /* Header and Nav */
 
@@ -27,8 +27,8 @@ header, .logo-and-title, .links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    font-family: "Poppins", sans-serif;
 }
+
 .title {
     font-size: 24px;
     font-weight: 300;
