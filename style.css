@@ -2,9 +2,22 @@
 
 body {
     display: flex;
+    flex-direction: column;
 }
 
+header, .links {
+    display: flex;
+    flex-direction: row;
+}
+.header-logo {
+    width: 114px;
+    height: 100%;
 
+}
+
+nav {
+    font-family: Poppins;
+}
 
 /* Responsive styles for mobile devices */
 
