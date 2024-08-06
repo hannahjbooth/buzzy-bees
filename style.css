@@ -109,8 +109,12 @@ h2 {
 
 /* Footer */
 
-
-
+.logo-banner {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+/* 
 .footer-logo1 {
     width: 254px;
     height: 226px;
@@ -129,7 +133,7 @@ h2 {
 .footer-logo4 { 
     width: 137px;
     height: 226px; 
-}
+} */
 
     /* Home: Hero Section */
 
