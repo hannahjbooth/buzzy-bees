@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+    /* Header and Nav */
 
 header {
     padding-left: 50px;
@@ -49,6 +50,7 @@ nav {
     padding: 10px;
 
 }
+
 li.plain {
     color: #583b1ffa;
     display: flex;
@@ -70,6 +72,17 @@ li.button {
     font-size: 14px;
     font-weight: 400;
 }
+
+nav li.plain a {
+    text-decoration: none;
+    color: #583b1ffa;
+}
+
+nav li.button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 
 /* Responsive styles for mobile devices */
 
