@@ -83,6 +83,12 @@ nav li.button a {
     color: #ffffff;
 }
 
+        /* Dynamic styling */
+
+.current {
+    text-decoration: underline;
+}
+
 
 /* Responsive styles for mobile devices */
 

@@ -104,5 +104,17 @@
         </section>
     </footer>
 
+    <script>
+
+        // add underscore to current page in navigation bar
+        const links = document.querySelectorAll('nav a');
+        links.forEach(function(link) {
+            if (link.href === window.location.href) {
+                link.parentElement.classList.add('current');
+            }
+        });
+
+
+    </script>
 </body>
 </html>
