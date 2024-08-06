@@ -1,4 +1,4 @@
-/* Base styles */
+/* Base styles for computer screens */
 
     /* Main styles */
 
@@ -20,8 +20,8 @@ main {
 header {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -30,8 +30,13 @@ header, .logo-and-title, .links {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    align-items: center;
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+}
 .title {
     font-size: 24px;
     font-weight: 300;
@@ -42,13 +47,11 @@ header, .logo-and-title, .links {
 .header-logo {
     width: 140px;
     height: 100%;
-
 }
 
 nav {
     font-weight: 250;
     font-size: 16px;
-
 }
 
 .links {
@@ -59,7 +62,6 @@ nav {
 
 .links .plain {
     padding: 10px;
-
 }
 
 li.plain {
@@ -97,6 +99,12 @@ nav li.plain a {
 nav li.button a {
     text-decoration: none;
     color: #ffffff;
+}
+
+/* Main bodies */
+
+h2 {
+    text-align: center;
 }
 
     /* Home: Hero Section */
