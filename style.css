@@ -1,5 +1,9 @@
 /* Base styles */
 
+body {
+    display: flex;
+}
+
 
 
 /* Responsive styles for mobile devices */
