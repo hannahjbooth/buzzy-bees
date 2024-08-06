@@ -125,7 +125,56 @@ footer {
     color: #1b0e02fa;
 }
 
+.footer-info-sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-info-sections h3 {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #1b0e02fa;
+}
 
+.footer-info-sections ul {
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.footer-info-sections ul li {
+    display: flex;
+    justify-content: center;
+    color: #1b0e02fa;
+    font-weight: 300;
+
+}
+
+.weekdays {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-contact-link {
+    background-color: #583b1ffa;
+    height: 56px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer-contact-link:hover {
+    background-color: #7a624d;
+    transition: background-color 0.2s ease;
+}
 .logo-banner {
     display: flex;
     justify-content: center;
@@ -164,62 +213,12 @@ footer {
     height: 226px; 
 } */
 
-.footer-info-sections {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-
-.footer-info-sections h3 {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #1b0e02fa;
-}
-
-.footer-info-sections ul {
-    padding: 0px;
-    margin-top: 10px;
-}
-
-.footer-info-sections ul li {
-    display: flex;
-    justify-content: center;
-    color: #1b0e02fa;
-    font-weight: 300;
-
-}
-
-.weekdays {
-    max-width: 300px;
-    text-align: center;
-}
-
-.footer-contact-link {
-    background-color: #583b1ffa;
-    height: 56px;
-    width: 220px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    margin-bottom: 20px;
-}
-
-.footer-contact-link:hover {
-    background-color: #7a624d;
-    transition: background-color 0.2s ease;
-}
 
 .copyright {
     text-align: center;
 }
+
+
 
     /* Home: Hero Section */
 
