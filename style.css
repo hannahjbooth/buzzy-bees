@@ -334,6 +334,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin: 60px 30px 30px 30px;
+    scroll-margin-top: 200px;
 }
 
 .services-text {
