@@ -303,7 +303,7 @@ footer {
 
 }
 
-.physio-team ul, li {
+.physio-team ul, .physio-team li {
     list-style-type: initial;
     line-height: 2.5;
     font-weight: 300;
