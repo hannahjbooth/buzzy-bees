@@ -1,5 +1,9 @@
 /* Base styles for computer screens */
 
+.test {
+    text-align: center
+}
+
     /* Main styles */
 body {
     display: flex;
@@ -25,6 +29,10 @@ main {
 
 }
 /* Scribble */
+
+.main-h2-and-scribble {
+    text-align: center;
+}
 
   .main-h2 {
     font-size: 32px; 
