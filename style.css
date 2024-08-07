@@ -279,6 +279,11 @@ footer {
 
         /* Hero Section */
 
+.welcome-h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
 .hero-section {
     text-align: center;
     margin: 50px 30px 30px 30px;
@@ -358,6 +363,14 @@ footer {
 
 
 
+.inline {
+    display: inline;
+
+}
+
+.services-list li {
+    margin-bottom: 15px;
+}
 
 
 
