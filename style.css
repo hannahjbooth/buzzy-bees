@@ -42,7 +42,7 @@ main {
 }
 
   .main-h2 {
-    font-size: 32px; 
+    font-size: 38px; 
     text-align: center; 
     font-weight: 400;
     margin-bottom: 0px;
@@ -280,14 +280,19 @@ footer {
         /* Hero Section */
 
 .welcome-h2 {
-    font-size: 50px;
+    font-size: 48px;
+    font-weight: 200;
     margin: 0;
 }
 
 .hero-section {
     text-align: center;
-    margin: 50px 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
 
+}
+
+.hero-paragraphs {
+    margin-top: 30px;
 }
 .image-banner {
     margin: 50px 30px 30px 30px;
