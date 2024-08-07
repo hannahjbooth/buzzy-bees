@@ -12,7 +12,8 @@ Array.from(links).forEach(function(link) {
 
 // handle the underscore for Sections link according to user scrolling
 const servicesSection = document.getElementById('services');
-const servicesLink = document.getElementById('servces-link');
+const servicesLink = document.getElementById('services-link');
+const homeLink = document.getElementById('home-link');
 
 window.addEventListener('scroll', function() {
     const sectionTop = servicesSection.getBoundingClientRect().top;
@@ -22,8 +23,10 @@ window.addEventListener('scroll', function() {
 
     if (isInViewport) {
         servicesLink.parentElement.classList.add('current');
+        homeLink.parentElement.classList.remove('current');
     } else {
         servicesLink.parentElement.classList.remove('current');
+        homeLink.parentElement.classList.add('current');
     }
 });
 
