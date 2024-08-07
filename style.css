@@ -8,7 +8,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;    
+    font-family: "Poppins", sans-serif;
+    color: #583b1ffa;   
     position: relative;
 }
 
@@ -124,7 +125,8 @@ h2 {
 
 /* Footer */
 footer {
-    color: #1b0e02fa;
+    /* color: #1b0e02fa; */
+    color: #3e2106fa;
 }
 
 .footer-title {
@@ -190,6 +192,7 @@ footer {
     background-color: #7a624d;
     transition: background-color 0.2s ease;
 }
+
 .logo-banner {
     display: flex;
     justify-content: center;
@@ -204,7 +207,7 @@ footer {
     padding: 20px;
     box-sizing: border-box;
     border-color: #7a624d39;
-    
+
 }
 
 /* 
@@ -250,6 +253,77 @@ footer {
 }
 
 
+
+/* Meet the Team */
+
+.team-intro {
+    text-align: center;
+}
+.client-quotes {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 210px 20px 210px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.client-quotes .name {
+    font-size: 16px;
+}
+
+.physio-team {
+    display: flex;
+}
+
+.physio-profile {
+    width: 50vw;
+    padding: 50px;
+}
+
+.physio-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.headshot {
+    width: 400px;
+}
+
+.claire-photo {
+    width: 550px;
+    height: auto;
+    clip-path: inset(0px 75px 0px 75px);
+}
+
+.physio-team p {
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+
+}
+
+.physio-team ul, li {
+    list-style-type: initial;
+    line-height: 2.5;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+.physio-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.physio-position {
+    text-align: center;
+}
+
+.physio-2 {
+    margin-top: 120px;
+}
 /* Responsive styles for mobile devices */
 
 @media (max-width: 768px) {
