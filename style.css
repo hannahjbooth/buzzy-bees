@@ -1,10 +1,17 @@
 /* Base styles for computer screens */
 
-.test {
-    text-align: center
+
+
+/* Main styles */
+
+    /* Dynamic styling */
+
+.current {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 1px;
 }
 
-    /* Main styles */
 body {
     display: flex;
     flex-direction: column;
@@ -268,19 +275,73 @@ footer {
 
 
 
-    /* Home: Hero Section */
+    /* Home */
+
+        /* Hero Section */
 
 .hero-section {
     text-align: center;
+    margin: 50px 30px 30px 30px;
+
+}
+.image-banner {
+    margin: 50px 30px 30px 30px;
+
+}
+.image-banner img {
+    width: 300px;
+    height: 200px;
+    margin: 2px;
 }
 
-        /* Dynamic styling */
+        /* Achieve your potential */
 
-.current {
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    text-decoration-thickness: 1px;
+.potential {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 30px 30px 30px;
 }
+
+.potential-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.potential-image img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    width: 600px; 
+    height: 1150px;
+}
+
+.potential-text {
+    flex: 1;
+}
+
+.potential-ul li {
+    list-style-type: initial;
+    line-height: 2.2;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+
+
+/* .headshot {
+    width: 400px;
+}
+
+.claire-photo {
+    width: 550px;
+    height: auto;
+    clip-path: inset(0px 75px 0px 75px);
+} */
+
+
 
 
 
@@ -291,8 +352,8 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;    
+    padding-left: 50px;
+    padding-right: 50px;    
 }
 
 .client-quotes {
