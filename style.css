@@ -326,20 +326,35 @@ footer {
     line-height: 2.2;
     font-weight: 300;
     font-size: 16px;
-
 }
 
+        /* Services */
 
-
-/* .headshot {
-    width: 400px;
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 30px 30px 30px;
 }
 
-.claire-photo {
-    width: 550px;
-    height: auto;
-    clip-path: inset(0px 75px 0px 75px);
-} */
+.services-text {
+    flex: 1;
+}
+
+.services-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-image img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    width: 600px; 
+    height: 1150px;
+}
+
 
 
 
