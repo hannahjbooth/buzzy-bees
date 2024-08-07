@@ -2,7 +2,7 @@
 
 
 
-/* Main styles */
+
 
     /* Dynamic styling */
 
@@ -11,6 +11,7 @@
     text-underline-offset: 7px;
     text-decoration-thickness: 1px;
 }
+/* Main styles */
 
 body {
     display: flex;
@@ -31,6 +32,7 @@ main {
     background-color: #ff8b260d;
     width: 100%;
     margin-top: 151px;
+    padding-bottom: 100px;
     position: relative;
     z-index: 0;
 
@@ -170,15 +172,20 @@ footer {
     font-weight: 400;
     font-size: 19px;
     margin-bottom: 5px;
+    padding: 0;
     /* text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 1px; */
     color: #1b0e02fa;
 }
 
+.navigation-h3 {
+    margin-top: 5px;
+}
 .footer-info-sections {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 0;
 }
 .footer-info-sections h3 {
     display: flex;
@@ -241,12 +248,17 @@ footer {
     height: 200px;
     width: auto;
     border-style: solid;
-    padding: 20px;
+    padding: 18px;
+    margin: 0;
     box-sizing: border-box;
     border-color: #7a624d39;
 
 }
 
+.copyright p {
+    padding: 2px;
+    margin: 2px;
+}
 /* 
 .footer-logo1 {
     width: 254px;
@@ -455,6 +467,9 @@ footer {
 .physio-2 {
     margin-top: 120px;
 }
+
+
+
 /* Responsive styles for mobile devices */
 
 @media (max-width: 768px) {

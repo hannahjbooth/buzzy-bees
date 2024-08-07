@@ -14,14 +14,22 @@ Array.from(links).forEach(function(link) {
 const servicesSection = document.getElementById('services');
 const servicesLink = document.getElementById('services-link');
 const homeLink = document.getElementById('home-link');
+const footer = document.querySelector('footer'); // Update with the correct selector for your footer
+
 
 window.addEventListener('scroll', function() {
     const sectionTop = servicesSection.getBoundingClientRect().top;
     const sectionHeight = servicesSection.offsetHeight;
+    const footerTop = footer.getBoundingClientRect().top;
     const viewportHeight = window.innerHeight;
-    const isInViewport = sectionTop < viewportHeight && (sectionTop + sectionHeight) > 0;
 
-    if (isInViewport) {
+    const isInServicesViewport = sectionTop < viewportHeight && (sectionTop + sectionHeight) > 0;
+    const isInFooterViewport = footerTop < viewportHeight && footerTop > 0;
+
+    if (isInFooterViewport) {
+        servicesLink.parentElement.classList.remove('current');
+        homeLink.parentElement.classList.add('current');
+    } else if (isInServicesViewport) {
         servicesLink.parentElement.classList.add('current');
         homeLink.parentElement.classList.remove('current');
     } else {
