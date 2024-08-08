@@ -13,6 +13,7 @@
 }
 /* Main styles */
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -37,6 +38,40 @@ main {
     z-index: 0;
 
 }
+
+/* Color tests */
+
+    /* 
+    Background colors to test:
+
+        Original color: #c2bfcb;
+        First new color, sepia: #ff8b260d;
+        Testing a yellow closer to the logo:
+
+        original stroke color: stroke: #eae6e1;
+
+        Yellow from the logo: #fbc301;
+        Nice yellows: #f7aa0310; #f7aa0313;
+    */
+
+.main-home {
+    background-color: #ff8b260d; /* #ff8b260d; */
+}
+
+.main-meet-the-team {
+    background-color: #c2bfcb;
+}
+
+
+
+.main-prices {
+    background-color: #f7aa0313;
+}
+
+.main-contact {
+    background-color: #f7aa0310;
+}
+
 /* Scribble */
 
 .main-h2-and-scribble {
@@ -62,6 +97,10 @@ main {
     height: 100px;
   }
 
+  /* Test scribble style */
+  .scribble-meet-the-team {
+    stroke: #eae6e1;
+}
 
 
     /* Header and Nav */
