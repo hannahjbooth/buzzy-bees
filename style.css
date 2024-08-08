@@ -52,6 +52,8 @@ main {
 
         Yellow from the logo: #fbc301;
         Nice yellows: #f7aa0310; #f7aa0313;
+
+        logo border color: #7a624d39;
     */
 
 .main-home {
@@ -117,6 +119,9 @@ header {
     background-color: white;
     width: 100vw;
     z-index: 1;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #7a624d13;;
     /* border-style:solid;
     border-color: #7a624d39; */
 }
@@ -276,22 +281,19 @@ footer {
     transition: background-color 0.2s ease;
 }
 
-.logo-banner {
-    display: flex;
-    justify-content: center;
-}
+
 
 .logo-images {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     height: 200px;
-    width: auto;
+    width: fit-content;
     border-style: solid;
+    border-width: 1px;
     padding: 18px;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
     border-color: #7a624d39;
-
 }
 
 .copyright p {
