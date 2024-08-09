@@ -535,7 +535,7 @@ footer {
     justify-content: center;
     position: relative;
     max-width: 100%; /* Set the container width */
-    height: 520px; /* Set the container height */
+    height: 540px; /* Set the container height */
 }
 
         /* Physiotherapy */
@@ -585,7 +585,7 @@ footer {
 .prices6 {
     z-index: 0;
     width: 406px;
-    height: 520px;
+    max-height: 520px;
     margin-left: 5px;
 }
 
@@ -603,107 +603,6 @@ footer {
     top: 15px; 
     right: 0px;
 }
-
-
-/* .prices2-cropper {
-    width: 406px; 
-    height: 520px; 
-    overflow: hidden; 
-    position: absolute;
-    border-radius: 40px;
-}
-
-.prices2-cropper img {
-    position: absolute;
-    width: 406px; 
-    height: 520px; 
-}
-
-.prices1-cropper {
-    width: 216px; 
-    height: 216px;
-    overflow: hidden; 
-    position: absolute;
-    z-index: 1;
-    top: 40px; 
-    left: 0px; 
-
-}
-
-.prices1-cropper img {
-    width: 216px; 
-    height: 216px; 
-    position: absolute;
-
-}  */
-
-/* Hydrotherapy */
-
-
-.prices3-cropper {
-    width: 405px; /* Set the desired width for cropping */
-    height: 520px; /* Set the desired height for cropping */
-    overflow: hidden; /* Hide the overflowing parts of the image */
-    position: absolute;
-    border-radius: 40px;
-}
-
-.prices3-cropper img {
-    width: 800px; /* Larger than the container to create a crop effect */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute;
-    top: -10px; /* Move the image to position the cropped area */
-    left: -205px; /* Adjust as needed to focus on the desired area */
-}
-
-.prices4-cropper {
-    width: 216px; /* Set the desired width for cropping */
-    height: 216px; /* Set the desired height for cropping */
-    overflow: hidden; /* Hide the overflowing parts of the image */
-    position: absolute;
-    border-radius: 120px;
-    z-index: 1;
-    top: 40px; /* Align to top */
-    left: 30px; /* Margin from the left */
-}
-
-.prices4-cropper img {
-    width: 220px; /* Larger than the container to create a crop effect */
-    height: auto; /* Maintain aspect ratio */
-    position: absolute;
-    top: -50px; /* Move the image to position the cropped area */
-    left: 0px; /* Adjust as needed to focus on the desired area */
-    margin-right: 100px;
-}
-
-
-/* 
-            <div class="service-section">
-                <div class="service-pairs">
-
-                    <section class="physiotherapy">
-
-                        <div class="image-banner">
-                        </div>
-
-                        <div class="prices-text">
-                        </div>
-
-                    </section>
-
-                    <section class="hydrotherapy">
-
-                        <div class="image-banner">
-                        </div>
-
-                        <div class="prices-text">
-                        </div>
-
-                    </section>
-                </div>  
-                <href class="more-info">Click here to find out more information and book</href>
-            </div>
-        */
 
 /* Responsive styles for mobile devices */
 
