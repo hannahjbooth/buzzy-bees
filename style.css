@@ -538,27 +538,125 @@ footer {
     height: 520px; /* Set the container height */
 }
 
+        /* Physiotherapy */
 
-.prices2-cropper {
+.prices-image-banner img {
+    position: absolute; /* Position images absolutely within the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.prices1 {
+    z-index: 1;
+    width: 216px;
+    height: 216px;
+    top: 40px; 
+    left: 0px;
+}
+
+.prices2 {
+    z-index: 0;
+    width: 406px;
+    height: 520px;
+}
+
+.prices3 {
+    z-index: 0;
+    width: 406px;
+    height: 520px;
+    margin-right: 40px;
+}
+
+.prices4 {
+    z-index: 1;
+    width: 249px;
+    height: 178px;
+    top: 80px; 
+    right: 0px;
+}
+
+.prices5 {
+    z-index: 1;
+    width: 216px;
+    height: 216px;
+    bottom: 80px; 
+    left: 0px;
+}
+
+.prices6 {
+    z-index: 0;
+    width: 406px;
+    height: 520px;
+    margin-left: 5px;
+}
+
+.prices7 {
+    z-index: 0;
+    width: 406px;
+    height: 520px;
+    margin-right: 40px;
+}
+
+.prices8 {
+    z-index: 1;
+    width: 249px;
+    height: 178px;
+    top: 80px; 
+    right: 0px;
+}
+
+
+/* .prices2-cropper {
+    width: 406px; 
+    height: 520px; 
+    overflow: hidden; 
+    position: absolute;
+    border-radius: 40px;
+}
+
+.prices2-cropper img {
+    position: absolute;
+    width: 406px; 
+    height: 520px; 
+}
+
+.prices1-cropper {
+    width: 216px; 
+    height: 216px;
+    overflow: hidden; 
+    position: absolute;
+    z-index: 1;
+    top: 40px; 
+    left: 0px; 
+
+}
+
+.prices1-cropper img {
+    width: 216px; 
+    height: 216px; 
+    position: absolute;
+
+}  */
+
+/* Hydrotherapy */
+
+
+.prices3-cropper {
     width: 405px; /* Set the desired width for cropping */
     height: 520px; /* Set the desired height for cropping */
     overflow: hidden; /* Hide the overflowing parts of the image */
     position: absolute;
     border-radius: 40px;
-
-
 }
 
-.prices2-cropper img {
+.prices3-cropper img {
     width: 800px; /* Larger than the container to create a crop effect */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
     top: -10px; /* Move the image to position the cropped area */
     left: -205px; /* Adjust as needed to focus on the desired area */
-    
 }
 
-.prices1-cropper {
+.prices4-cropper {
     width: 216px; /* Set the desired width for cropping */
     height: 216px; /* Set the desired height for cropping */
     overflow: hidden; /* Hide the overflowing parts of the image */
@@ -569,7 +667,7 @@ footer {
     left: 30px; /* Margin from the left */
 }
 
-.prices1-cropper img {
+.prices4-cropper img {
     width: 220px; /* Larger than the container to create a crop effect */
     height: auto; /* Maintain aspect ratio */
     position: absolute;
