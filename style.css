@@ -468,28 +468,25 @@ footer {
     justify-content: center;
 }
 
-.headshot {
-    width: 400px;
-}
+
 
 .claire-photo {
     width: 550px;
     height: auto;
-    clip-path: inset(0px 75px 0px 75px);
+    clip-path: inset(0px 65px 0px 70px);
 }
 
 .physio-profile-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 200px 0px 200px;
+    margin: 0px 220px 0px 220px;
 }
 .physio-profile p {
     line-height: 1.8;
     font-weight: 300;
     font-size: 16px;
     text-align: justify;
-
 
 }
 
