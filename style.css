@@ -659,7 +659,6 @@ form {
 
 .form1 {
     padding-right: 6px;
-
 }
 
 .form2 {
@@ -668,7 +667,16 @@ form {
     padding-left: 6px;
 }
 
+.form3 {
+    width: 100%;
+    margin-top: 20px;
+}
 
+
+.form5 {
+    display: flex;
+    justify-content: center;
+}
 #name, #email, #home-address, #physio-address {
     width: 300px;
 }
@@ -684,9 +692,7 @@ form {
     width: 150px;
     margin-bottom: 6px;
 }
-.form3 {
-    width: 100%;
-}
+
 #outcome {
     height: 100px;
     width: 100%;
@@ -705,10 +711,7 @@ form {
     margin-left: 25px;
 }
 
-.form5 {
-    display: flex;
-    justify-content: center;
-}
+
 
 #submit {
     background-color: #583b1ffa;
