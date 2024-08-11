@@ -615,6 +615,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 form {
@@ -625,6 +626,10 @@ form {
 .form {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
+}
+fieldset, form, .form, .form-a, .form1, .form2 {
+    align-items: flex-start;  /* Ensure containers align items to start */
 }
 
 #name, #email, #home-address, #dob, #physio-address, #outcome {
@@ -652,6 +657,7 @@ form {
     display: flex;
     flex-direction: column;
     /* width: 50%; */
+    align-items: flex-start;
 }
 
 .form1 {
@@ -665,9 +671,6 @@ form {
     padding-left: 6px;
 }
 
-#dob {
-    margin-bottom: 6px;
-}
 
 #name, #email, #home-address, #physio-address {
     width: 300px;
@@ -681,7 +684,8 @@ form {
     width: 300px;
 }
 #dob {
-    width: 120px;
+    width: 150px;
+    margin-bottom: 6px;
 }
 .form3 {
     width: 100%;

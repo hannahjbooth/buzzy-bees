@@ -38,3 +38,32 @@ window.addEventListener('scroll', function() {
     }
 });
 
+// --- Contact Form
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the elements from the DOM
+    const homeAddressInput = document.getElementById("home-address");
+    const physioAddressInput = document.getElementById("physio-address");
+    const sameAddressCheckbox = document.getElementById("same-address");
+
+    // Add an event listener to the checkbox
+    sameAddressCheckbox.addEventListener("change", function() {
+        if (this.checked) {
+            // Copy the home address to the physio address input field
+            physioAddressInput.value = homeAddressInput.value;
+            // Optionally, disable the physio address input field
+            physioAddressInput.disabled = true;
+        } else {
+            // If the checkbox is unchecked, clear the physio address field and re-enable it
+            physioAddressInput.value = "";
+            physioAddressInput.disabled = false;
+        }
+    });
+
+    // Optionally, update the physio address field if the home address is changed while the checkbox is checked
+    homeAddressInput.addEventListener("input", function() {
+        if (sameAddressCheckbox.checked) {
+            physioAddressInput.value = homeAddressInput.value;
+        }
+    });
+});
