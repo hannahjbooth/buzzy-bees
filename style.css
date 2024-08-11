@@ -628,9 +628,6 @@ form {
     justify-content: center;
     align-items: flex-start;
 }
-fieldset, form, .form, .form-a, .form1, .form2 {
-    align-items: flex-start;  /* Ensure containers align items to start */
-}
 
 #name, #email, #home-address, #dob, #physio-address, #outcome {
     font-size: 1.2rem;
@@ -708,9 +705,32 @@ fieldset, form, .form, .form-a, .form1, .form2 {
     margin-left: 25px;
 }
 
+.form5 {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    background-color: #583b1ffa;
+    height: 56px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+}
 
 
-
+#submit:hover {
+    background-color: #7a624d;
+    transition: background-color 0.2s ease;
+}
 /* Responsive styles for mobile devices */
 
 @media (max-width: 768px) {
