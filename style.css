@@ -601,6 +601,14 @@ footer {
     right: 0px;
 }
 
+.physio-prices {
+    list-style-type: initial;
+}
+
+.prices-h3 {
+    text-align: center;
+}
+
 /* Contact Us */
 
     /* Form */
