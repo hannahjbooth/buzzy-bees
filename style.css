@@ -23,7 +23,7 @@ body {
     font-family: "Poppins", sans-serif;
     color: #583b1ffa;   
     position: relative;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 
 body ul {
@@ -341,6 +341,7 @@ footer {
 
 .hero-paragraphs {
     margin-top: 30px;
+    font-size: 17px;
 }
 .image-banner {
     margin: 50px 30px 30px 30px;
