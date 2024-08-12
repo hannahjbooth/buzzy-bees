@@ -609,6 +609,29 @@ footer {
     text-align: center;
 }
 
+.travel-charge {
+    text-align: center;
+}
+.more-info-button {
+    display: flex;
+    justify-content: center;  
+}
+
+.more-info {
+    background-color: #583b1ffa;
+    height: 80px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
 /* Contact Us */
 
     /* Form */
