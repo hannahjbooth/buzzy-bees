@@ -610,6 +610,7 @@ footer {
 
 .travel-charge {
     text-align: center;
+    margin-top: 0px;
 }
 .more-info-button {
     display: flex;
