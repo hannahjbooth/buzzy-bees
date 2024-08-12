@@ -535,7 +535,6 @@ footer {
     height: 540px; /* Set the container height */
 }
 
-        /* Physiotherapy */
 
 .prices-image-banner img {
     position: absolute; /* Position images absolutely within the container */
@@ -614,7 +613,8 @@ footer {
 }
 .more-info-button {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
+    padding: 10px;  
 }
 
 .more-info {
