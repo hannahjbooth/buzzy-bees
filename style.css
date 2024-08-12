@@ -23,6 +23,7 @@ body {
     font-family: "Poppins", sans-serif;
     color: #583b1ffa;   
     position: relative;
+    font-size: 17px;
 }
 
 body ul {
@@ -33,7 +34,7 @@ main {
     background-color: #ff8b260d;
     width: 100%;
     margin-top: 151px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     position: relative;
     z-index: 0;
 
@@ -99,13 +100,7 @@ main {
     height: 100px;
   }
 
-  /* Test scribble style */
-  /* .scribble-meet-the-team {
-    stroke: #eae6e1;
-} */
 
-
-    /* Header and Nav */
 
 header {
     box-sizing: border-box;
