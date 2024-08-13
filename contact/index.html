@@ -57,60 +57,88 @@
 
                 <fieldset>
                     <legend>Contact Form</legend>
-                    <div class="form-a">
+
 
                         <div class="form1">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name"><br>
-
-                            <label for="email">Email address</label>
-                            <input type="email" name="email" id="email"><br>
-
-                            <label for="home-address">Home address</label>
-                            <textarea type="text" name="home-address" id="home-address"></textarea>
-                        
+                            <div class="side">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="side">
+                                <label for="dob">Date of birth</label>
+                                <input type="date" name="dob" id="dob">
+                            </div>
                         </div>
                     
                         <div class="form2">
-                            <label for="dob">Date of birth</label>
-                            <input type="date" name="dob" id="dob"><br><br>
-
-                            <label for="physio-address" class="physio-address-label">Address at which the physiotherapy will take place</label>
-
-                            <div>
-                                <input type="checkbox" id="same-address">
-                                <label for="same-address">Same as home address</label>
+                            <div class="side">
+                                <label for="email">Email address</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="side">
+                                <label for="phophonene">Phone number</label>
+                                <input type="phone" name="phone" id="phone">
                             </div>
 
-
-                            <textarea type="text" name="physio-address" id="physio-address"></textarea>
                         </div>
 
-                    </div>
 
-                    <div class="form-b">
-                        <div class="form3">
-                            <label for="outcome">Desired outcome</label>
-                            <textarea type="text" name="outcome" id="outcome"></textarea>
+                    <div class="form3">
+                        <div class="home-address">
+                            <label for="home-address">Home address</label>
+                            <textarea type="text" name="home-address" id="home-address"></textarea>
                         </div>
 
-                        <div class="form4">
-                            <p class="if-nhs">If the prospective patient is a child, do they currently have an open NHS physiotherapy referral?</p>
+                        <div class="physio-address">
+                            <label for="physio-address" class="physio-address-label">Address at which the physiotherapy will take place</label>
 
-                                <div class="yes">
-                                    <input type="radio" id="nhs-yes" name="nhs" value="yes">
-                                    <label for="nhs-yes">Yes</label>
-                                </div>
-                                <div class="no">
-                                    <input type="radio" id="nhs-no" name="nhs" value="no">
-                                    <label for="nhs-no">No</label>
-                                </div>
-
-                        </div>
-                        <div class="form5">
-                            <input type="submit" value="Submit" id="submit">
+                            <div class="row">
+                                <input type="checkbox" id="same-address">
+                                <label class="same-address" for="same-address">Same as home address</label>
+                            </div>
+                        <textarea type="text" name="physio-address" id="physio-address"></textarea>                            
                         </div>
                     </div>
+
+                    <div class="form4">
+                        <div class="row row-services">
+                            <label for="services">Select required service:</label>
+                            <select id="services" name="services">
+                            <option value="empty"> </option>
+                            <option value="physiotherapy">Physiotherapy</option>
+                            <option value="hydrotherapy">Hydrotherapy</option>
+                            <option value="mot">Baby/Child MOT</option>
+                            <option value="massage">Baby Massage</option>
+                            </select>
+                        </div>
+                        <div class="new-textarea"></div>
+                    </div>
+
+                    <div class="form5">
+                        <label for="outcome">Desired outcome</label>
+                        <textarea type="text" name="outcome" id="outcome"></textarea>
+                    </div>
+
+                    <div class="form6">
+                        <div>
+                        <p class="if-nhs">If the prospective patient is a child, do they currently have an open NHS physiotherapy referral?</p>
+                        </div>
+                        <div class="yes-or-no">
+                            <div class="yes">
+                                <input type="radio" id="nhs-yes" name="nhs" value="yes">
+                                <label class="nhs-yes" for="nhs-yes">Yes</label>
+                            </div>
+                            <div class="no">
+                                <input type="radio" id="nhs-no" name="nhs" value="no">
+                                <label class="nhs-no" for="nhs-no">No</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <input type="submit" value="Submit" id="submit">
+                    </div>
+
 
                 </fieldset>
             </form>

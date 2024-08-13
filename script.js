@@ -82,3 +82,26 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+// add a new textarea when physiotherapy, hydrotherapy or mot are selected
+
+document.getElementById('services').addEventListener('change', function() {
+    const selectedValue = this.value;
+    const textareaDiv = document.querySelector('.new-textarea');
+
+    // Clear any existing textarea
+    textareaDiv.innerHTML = '';
+
+    // Check if the selected value requires a textarea
+    if (selectedValue === 'physiotherapy' || selectedValue === 'hydrotherapy' || selectedValue === 'mot') {
+        // Create a new textarea element
+        const textarea = document.createElement('textarea');
+        textarea.name = 'concerns'; // Name for submission
+        textarea.placeholder = 'Please describe your concerns';
+        textarea.classList.add('textarea-concerns'); // Add the textarea-concerns class
+
+
+        // Append the textarea to the div
+        textareaDiv.appendChild(textarea);
+    }
+});
