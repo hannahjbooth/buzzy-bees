@@ -772,11 +772,6 @@ select {
     margin-top: 15px
 }
 
-/* .row-services {
-    margin-left: 10px;
-} */
-
-
 .side, .home-address, .physio-address {
     width: 50%;
     display: flex;
