@@ -4,11 +4,26 @@
 const links = document.getElementsByClassName('underscore'); // get all 3 a tags to be underscored in an array
 const currentUrl = window.location.href;
 
+// Check if the current URL includes a fragment
+const currentFragment = window.location.hash;
+
 Array.from(links).forEach(function(link) {
-    if (link.href === currentUrl) {
+    // Remove fragment part for comparison
+    const linkHref = link.href.split('#')[0];
+
+    if (linkHref === currentUrl.split('#')[0]) {
+        link.parentElement.classList.add('current');
+    } else {
+        // Otherwise, remove 'current' class
+        link.parentElement.classList.remove('current');
+    }
+
+    // Special case for 'terms' fragment
+    if (currentFragment === '#terms' && linkHref.includes('prices.html')) {
+        // Underline the 'Prices' link if the fragment is '#terms'
         link.parentElement.classList.add('current');
     }
-});
+}); 
 
 // handle the underscore for Sections link according to user scrolling
 const servicesSection = document.getElementById('services');

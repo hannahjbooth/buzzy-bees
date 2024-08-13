@@ -12,7 +12,9 @@
     text-decoration-thickness: 1px;
 }
 /* Main styles */
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     display: flex;
@@ -632,6 +634,7 @@ aside.terms {
     background-image: url("/assets/prices/prices9.jpeg");
     background-size: cover;
     background-position: 50% center;
+    scroll-margin-top: 150px;
 }
 
 .terms-h2 {
