@@ -331,6 +331,10 @@ footer {
 }
 .image-banner {
     margin: 50px 30px 30px 30px;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;  
 
 }
 .image-banner img {
