@@ -659,6 +659,17 @@ aside.terms {
 
 /* Contact Us */
 
+.email-address, .use-form {
+    font-weight: 500;
+}
+
+.contact-us-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 310px 0px 310px;
+    text-align: center;
+}
+
     /* Form */
 
 
@@ -667,7 +678,25 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    background-color: #ffcb5a28;
+    border-color: #583b1fe7;
+    border-width: 1px;;
+}
+
+legend {
+    text-align: center;
+    background-color: #583b1fe7;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 8px;
+
 }
 
 form {
@@ -787,6 +816,10 @@ form {
 #submit:hover {
     background-color: #7a624d;
     transition: background-color 0.2s ease;
+}
+
+.contact-image1 {
+    width: 100%;
 }
 /* Responsive styles for mobile devices */
 
