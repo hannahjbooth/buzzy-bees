@@ -655,9 +655,7 @@ aside.terms {
 .main-contact {
     padding-bottom: 0px;
 }
-.h2-contact {
-    margin-top: 20px;
-}
+
 
 .email-address, .use-form {
     font-weight: 500;
@@ -666,7 +664,7 @@ aside.terms {
 .contact-us-text {
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 10px 200px;
+    padding: 20px 200px 30px 200px;
     text-align: center;
 }
 
@@ -678,7 +676,7 @@ aside.terms {
     justify-content: space-around;
     overflow: hidden;
     position: relative;
-    height: 1300px;
+    height: 1280px;
 }
 
 fieldset {
@@ -743,13 +741,13 @@ form {
 }
 
 .form1 {
-    padding-right: 6px;
+    padding-right: 10px;
 }
 
 .form2 {
     display: flex;
     /* justify-content: space-evenly; */
-    padding-left: 6px;
+    padding-left: 10px;
 }
 
 .form3 {
