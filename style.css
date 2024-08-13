@@ -315,6 +315,10 @@ footer {
     margin: 0;
 }
 
+.bolder {
+    font-weight: 500;
+}
+
 .hero-section {
     text-align: center;
     margin: 30px 30px 30px 30px;
