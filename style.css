@@ -679,6 +679,10 @@ aside.terms {
 
     /* Form */
 
+#dynamic-textarea {
+    display: none;
+}
+
 .flex-contact {
     display: flex;
     flex-direction: row;

@@ -84,21 +84,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.getElementById('services').addEventListener('change', function() {
     const selectedValue = this.value;
-    const textareaDiv = document.querySelector('.new-textarea');
-
-    // Clear any existing textarea
-    textareaDiv.innerHTML = '';
+    const textarea = document.getElementById('dynamic-textarea');
 
     // Check if the selected value requires a textarea
     if (selectedValue === 'physiotherapy' || selectedValue === 'hydrotherapy' || selectedValue === 'mot') {
-        // Create a new textarea element
-        const textarea = document.createElement('textarea');
-        textarea.name = 'concerns'; // Name for submission
-        textarea.placeholder = 'Please describe your concerns';
-        textarea.classList.add('textarea-concerns'); // Add the textarea-concerns class
-
-
-        // Append the textarea to the div
-        textareaDiv.appendChild(textarea);
+        // Show the textarea
+        textarea.style.display = 'block';
+    } else {
+        // Hide the textarea
+        textarea.style.display = 'none';
+        textarea.value = ''; // Clear the textarea when hiding
     }
 });
