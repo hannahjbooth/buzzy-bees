@@ -488,8 +488,6 @@ footer {
     text-align: center;
 }
 
-
-
 /* Prices */
 
 .service-section {
@@ -518,7 +516,6 @@ footer {
     max-width: 100%; /* Set the container width */
     height: 540px; /* Set the container height */
 }
-
 
 .prices-image-banner img {
     position: absolute; /* Position images absolutely within the container */
@@ -645,19 +642,22 @@ aside.terms {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: shadow for better contrast */
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
-    margin-top: 20px
-
+    margin-top: 20px;
 }
 
 .terms-text li {
     list-style-type: initial;
-
-
 }
 
 
-
 /* Contact Us */
+
+.main-contact {
+    padding-bottom: 0px;
+}
+.h2-contact {
+    margin-top: 20px;
+}
 
 .email-address, .use-form {
     font-weight: 500;
@@ -666,21 +666,28 @@ aside.terms {
 .contact-us-text {
     display: flex;
     flex-direction: column;
-    padding: 0px 310px 0px 310px;
+    padding: 10px 200px 10px 200px;
     text-align: center;
 }
 
     /* Form */
 
-
+.flex-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    height: 1300px;
+}
 
 fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #ffcb5a28;
+    background: linear-gradient(to bottom, rgba(253, 236, 200, 1) 50%, rgba(253, 236, 200, 0.5) 100%);
     border-color: #583b1fe7;
-    border-width: 1px;;
+    border-width: 1px;
 }
 
 legend {
@@ -701,7 +708,7 @@ legend {
 
 form {
     display: flex;
-    width: 750px;
+    width: 650px;
 }
 
 .form {
@@ -720,15 +727,12 @@ form {
 .form-a {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    /* width: 700px; */
+    justify-content: space-around;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.form-a, .form-b {
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 
 .form1, .form2 {
@@ -749,11 +753,15 @@ form {
 }
 
 .form3 {
-    width: 100%;
     margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-
+.form4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .form5 {
     display: flex;
     justify-content: center;
@@ -780,6 +788,7 @@ form {
 }
 .if-nhs {
     margin-bottom: 8px;
+
 }
 .yes, .no {
     display: inline-block;
@@ -793,8 +802,6 @@ form {
 .no {
     margin-left: 25px;
 }
-
-
 
 #submit {
     background-color: #583b1ffa;
@@ -812,14 +819,21 @@ form {
 
 }
 
-
 #submit:hover {
     background-color: #7a624d;
     transition: background-color 0.2s ease;
 }
 
 .contact-image1 {
-    width: 100%;
+    width: 1600px;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 40px;
+    object-fit: cover;
+
+
 }
 /* Responsive styles for mobile devices */
 
