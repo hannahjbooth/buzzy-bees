@@ -66,12 +66,9 @@ document.addEventListener("DOMContentLoaded", function() {
         if (this.checked) {
             // Copy the home address to the physio address input field
             physioAddressInput.value = homeAddressInput.value;
-            // Optionally, disable the physio address input field
-            physioAddressInput.disabled = true;
         } else {
             // If the checkbox is unchecked, clear the physio address field and re-enable it
             physioAddressInput.value = "";
-            physioAddressInput.disabled = false;
         }
     });
 
