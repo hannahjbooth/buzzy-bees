@@ -90,8 +90,6 @@ header {
     box-sizing: border-box;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 18px;
-    padding-bottom: 18px;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -123,7 +121,7 @@ h1 {
     width: 400px;
 }
 .header-logo {
-    width: 140px;
+    width: 150px;
     height: 100%;
 }
 
