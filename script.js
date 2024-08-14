@@ -1,7 +1,5 @@
-
-
-// add underscore to current page in navigation bar
-const links = document.getElementsByClassName('underscore'); // get all 3 a tags to be underscored in an array
+// Add underscore to the current page in the navigation bar
+const links = document.getElementsByClassName('underscore'); // get all a tags to be underscored in an array
 const currentUrl = window.location.href;
 
 // Check if the current URL includes a fragment
@@ -25,14 +23,14 @@ Array.from(links).forEach(function(link) {
     }
 }); 
 
-// handle the underscore for Sections link according to user scrolling
+// Handle the underscore for Sections link according to user scrolling
 const servicesSection = document.getElementById('services');
 const servicesLink = document.getElementById('services-link');
 const homeLink = document.getElementById('home-link');
 const footer = document.querySelector('footer'); // Update with the correct selector for your footer
 
-
-window.addEventListener('scroll', function() {
+// Scroll handler function
+function handleScroll() {
     const sectionTop = servicesSection.getBoundingClientRect().top;
     const sectionHeight = servicesSection.offsetHeight;
     const footerTop = footer.getBoundingClientRect().top;
@@ -51,7 +49,66 @@ window.addEventListener('scroll', function() {
         servicesLink.parentElement.classList.remove('current');
         homeLink.parentElement.classList.add('current');
     }
-});
+}
+
+// Add scroll event listener
+window.addEventListener('scroll', handleScroll);
+
+// Call the scroll handler on page load to underscore the correct link
+handleScroll();
+
+// // add underscore to current page in navigation bar
+// const links = document.getElementsByClassName('underscore'); // get all 3 a tags to be underscored in an array
+// const currentUrl = window.location.href;
+
+// // Check if the current URL includes a fragment
+// const currentFragment = window.location.hash;
+
+// Array.from(links).forEach(function(link) {
+//     // Remove fragment part for comparison
+//     const linkHref = link.href.split('#')[0];
+
+//     if (linkHref === currentUrl.split('#')[0]) {
+//         link.parentElement.classList.add('current');
+//     } else {
+//         // Otherwise, remove 'current' class
+//         link.parentElement.classList.remove('current');
+//     }
+
+//     // Special case for 'terms' fragment
+//     if (currentFragment === '#terms' && linkHref.includes('prices.html')) {
+//         // Underline the 'Prices' link if the fragment is '#terms'
+//         link.parentElement.classList.add('current');
+//     }
+// }); 
+
+// // handle the underscore for Sections link according to user scrolling
+// const servicesSection = document.getElementById('services');
+// const servicesLink = document.getElementById('services-link');
+// const homeLink = document.getElementById('home-link');
+// const footer = document.querySelector('footer'); // Update with the correct selector for your footer
+
+
+// window.addEventListener('scroll', function() {
+//     const sectionTop = servicesSection.getBoundingClientRect().top;
+//     const sectionHeight = servicesSection.offsetHeight;
+//     const footerTop = footer.getBoundingClientRect().top;
+//     const viewportHeight = window.innerHeight;
+
+//     const isInServicesViewport = sectionTop < viewportHeight && (sectionTop + sectionHeight) > 0;
+//     const isInFooterViewport = footerTop < viewportHeight && footerTop > 0;
+
+//     if (isInFooterViewport) {
+//         servicesLink.parentElement.classList.remove('current');
+//         homeLink.parentElement.classList.add('current');
+//     } else if (isInServicesViewport) {
+//         servicesLink.parentElement.classList.add('current');
+//         homeLink.parentElement.classList.remove('current');
+//     } else {
+//         servicesLink.parentElement.classList.remove('current');
+//         homeLink.parentElement.classList.add('current');
+//     }
+// });
 
 // --- Contact Form
 
