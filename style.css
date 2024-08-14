@@ -105,7 +105,7 @@ header {
     border-color: #7a624d39; */
 }
 
-header, .logo-and-title, .links {
+header, .logo-and-title, .links, .row1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -235,7 +235,7 @@ footer {
     color: #1b0e02fa;
 }
 .weekdays {
-    max-width: 300px;
+    padding: 0px 80px 0px 80px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -888,6 +888,105 @@ select {
 }
 /* Responsive styles for mobile devices */
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
+
+    /* Header */
+    header {
+        max-width: 100%;
+        height: 200px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-logo {
+        width: 100px;
+
+    }
+
+    .logo-and-title {
+        max-width: 100%;
+    }
+
+    .title {
+        margin: 0px;
+        padding: 10px;
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    li.button {
+        margin-left: 0px;
+        width: 100px;
+        height: 35px
+    }
+
+    /* Main */
+    main {
+        margin-top: 200px;
+    }
+
+    .footer-info-sections {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-images {
+        padding: 5px;
+        height:fit-content;
+    }
+
+    .logo-images img {
+        height: 100px;
+    }
+
+    .footer-logo3 {
+        width: 150px;
+        height: auto;
+    }
+
+
+    /* Home */
+
+    .image-banner {
+        display: none;
+    }
+
+    .potential-image {
+        display: none;
+    }
+
+    .services-image {
+        display: none;
+    }
+
+    .client-quotes {
+        padding: 20px 0px 20px 0px;
+    }
+
+
+
+
 
 }
+
+
+
+
+
+
+
+
