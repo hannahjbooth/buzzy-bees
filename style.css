@@ -987,6 +987,21 @@ select {
         width: 360px
     }
 
+    /* Prices */
+
+    .prices-image-banner, .prices1,  .prices2,  .prices3,  .prices4,  .prices5,  .prices6,  .prices7,  .prices8 {
+        display: none;
+    }
+
+    .service-pairs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Terms */
+    .terms-text {
+        margin: 0px 0px 0px 0px;
+    }
 }
 
 
