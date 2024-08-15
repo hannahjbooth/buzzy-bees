@@ -978,8 +978,14 @@ select {
     }
 
 
+    /* Meet Claire */
+    .physio-profile-text{
+        margin: 0px 20px 0px 20px;
+    }
 
-
+    .claire-photo{
+        width: 360px
+    }
 
 }
 
