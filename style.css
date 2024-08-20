@@ -114,14 +114,22 @@ header, .logo-and-title, .links, .row1 {
 h1 {
     display: flex;
     justify-content: center;
-}
-.title {
+    flex-direction: column;
     font-size: 24px;
     font-weight: 300;
     padding-left: 50px;
+    /* padding-top: 30px; */
     color: #3e2106fa;
     width: 400px;
+
 }
+
+/* .h1-location {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 200;
+
+} */
 .header-logo {
     width: 150px;
     height: 100%;
