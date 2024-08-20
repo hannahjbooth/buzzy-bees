@@ -931,7 +931,6 @@ select {
         flex: 1 1 100%; /* Takes 100% of the width */
         margin-left: 150px;
         margin-right: 150px;
-        
     }
 
     li.button {
@@ -963,9 +962,7 @@ select {
         height: auto;
     }
 
-
     /* Home */
-
     .image-banner {
         display: none;
     }
@@ -993,7 +990,6 @@ select {
     }
 
     /* Prices */
-
     .prices-image-banner, .prices1,  .prices2,  .prices3,  .prices4,  .prices5,  .prices6,  .prices7,  .prices8 {
         display: none;
     }
