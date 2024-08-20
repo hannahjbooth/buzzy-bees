@@ -917,20 +917,25 @@ select {
 
     .links {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-evenly;
         padding: 0px;
         margin: 0px 0px 10px 0px;
     }
+    .links .plain {
+        flex: 1 1 20%;
+    }
 
-    .row1 {
-        display: flex;
-        flex-direction: row;
+    .links .button {
+        flex: 1 1 100%; /* Takes 100% of the width */
+        margin-left: 150px;
+        margin-right: 150px;
+        
     }
 
     li.button {
         margin-left: 0px;
-        width: 100px;
         height: 35px
     }
 
