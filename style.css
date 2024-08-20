@@ -234,9 +234,12 @@ footer {
     text-decoration: none;
     color: #1b0e02fa;
 }
-.weekdays {
-    padding: 0px 80px 0px 80px;
+
+.footer-availability {
+    max-width: 300px;
     text-align: center;
+}
+.weekdays {
     margin-bottom: 10px;
 }
 
@@ -332,17 +335,18 @@ footer {
     font-size: 17px;
 }
 .image-banner {
-    margin: 50px 30px 30px 30px;
-    display: flex;
     overflow-x: auto;
     white-space: nowrap;
-    width: 100%;  
+    max-width: 100%;
+} 
 
-}
 .image-banner img {
     width: 300px;
     height: 200px;
     margin: 2px;
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: center;
 }
 
         /* Achieve your potential */
