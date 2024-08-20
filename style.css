@@ -955,6 +955,7 @@ select {
 
     .logo-images img {
         height: 100px;
+        width: auto;
     }
 
     .footer-logo3 {
