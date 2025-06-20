@@ -478,6 +478,10 @@ footer {
     clip-path: inset(0px 65px 0px 70px);
 }
 
+.lauren-photo {
+    width: 410px;
+}
+
 .physio-profile-text {
     display: flex;
     flex-direction: column;
@@ -1000,7 +1004,7 @@ select {
         margin: 0px 20px 0px 20px;
     }
 
-    .claire-photo{
+    .claire-photo, .lauren-photo {
         width: 360px
     }
 
