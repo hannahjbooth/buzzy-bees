@@ -222,6 +222,11 @@ footer {
 .navigation-h3 {
     margin-top: 5px;
 }
+
+footer section {
+    width: 25%;
+}
+
 .footer-info-sections {
     display: flex;
     justify-content: space-evenly;
