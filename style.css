@@ -469,7 +469,7 @@ footer {
 }
 
 .physio-profile {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .physio-photo {
@@ -492,7 +492,7 @@ footer {
     clip-path: inset(0px 65px 0px 70px);
 }
 
-.lauren-photo {
+.lauren-photo, .molly-photo {
     width: 410px;
 }
 
