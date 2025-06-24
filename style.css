@@ -97,9 +97,6 @@ main {
     margin: 0 auto;
 }
 
-
-
-
 header {
     box-sizing: border-box;
     padding-left: 50px;
@@ -480,6 +477,13 @@ footer {
     justify-content: center;
 }
 
+.main-meet-the-team h4 {
+    margin-bottom: 5px;
+}
+
+.main-meet-the-team ul {
+    margin-top: 5px;
+}
 
 
 .claire-photo {
