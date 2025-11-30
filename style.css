@@ -221,6 +221,10 @@ footer {
     margin-top: 5px;
 }
 
+#main-book-now h3 {
+    text-align: center;
+}
+
 footer section {
     width: 25%;
 }
@@ -1011,6 +1015,16 @@ select {
     .links {
         padding-left: 5px;
     }
+
+    /* Client quotes */
+
+    .client-quotes {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    font-size: 22px;
+    font-weight: 300;
+}
 }   
 
 @media (max-width: 800px) {
