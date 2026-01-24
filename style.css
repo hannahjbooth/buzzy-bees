@@ -942,6 +942,11 @@ select {
     align-items: center;
 }
 
+#what-to-expect-p {
+    font-size: 17px;
+    font-weight: 500;
+}
+
 .what-to-expect-main-sections li {
     list-style-type: initial;
 }
@@ -950,18 +955,20 @@ select {
     margin: 2% 0;
     padding: 1% 4%;
     background-color:#ffffff9f;
+    width: 50%;
 }
 
 .new-patient-button {
+    margin: 1% 0;
     padding: 0 5%;
     background-color: #583b1ffa;
     height: 56px;
-    width: 180px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     text-decoration: none;
     color: #ffffff;
@@ -1011,6 +1018,10 @@ select {
 
     .links {
         padding-left: 10px;
+    }
+
+    .what-to-expect-main-sections {
+        width: 80%;
     }
 }    
 
