@@ -168,7 +168,7 @@ li.button {
     background-color: #583b1ffa;
     margin-left: 70px;
     height: 56px;
-    width: 140px;
+    width: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -933,6 +933,49 @@ select {
     margin-left: 25px;
     object-fit: cover;
 }
+
+/* New Patients - What to Expect */
+
+#new-patients-what-to-expect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-to-expect-main-sections li {
+    list-style-type: initial;
+}
+
+.what-to-expect-main-sections {
+    margin: 2% 0;
+    padding: 1% 4%;
+    background-color:#ffffff9f;
+}
+
+.new-patient-button {
+    padding: 0 5%;
+    background-color: #583b1ffa;
+    height: 56px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.new-patient-button:hover {
+    background-color: #7a624d;
+    transition: background-color 0.2s ease;
+}
+
+
+
+
 
 /* Responsive Breakpoints */
 
