@@ -249,7 +249,11 @@ footer section {
     justify-content: center;
     color: #1b0e02fa;
     font-weight: 300;
+}
 
+#phone-li {
+    justify-content: space-evenly;
+    padding: 0 10%;
 }
 .footer-navigation a {
     text-decoration: none;
