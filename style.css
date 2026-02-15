@@ -718,7 +718,7 @@ aside.terms {
 .contact-us-text {
     display: flex;
     flex-direction: column;
-    padding: 20px 220px 30px 220px;
+    margin: 2% 10% 5% 10%;
     text-align: center;
 }
 
@@ -735,6 +735,18 @@ aside.terms {
     overflow: hidden;
     position: relative;
     height: 1250px;
+}
+
+#contact-form {
+    display: flex;
+    margin: 0 5%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#phone-text p {
+    margin-top: 7px;
+    margin-bottom: 7px;
 }
 
 fieldset {
@@ -760,17 +772,6 @@ legend {
     text-decoration: none;
     margin-bottom: 8px;
 
-}
-
-form {
-    display: flex;
-    width: 650px;
-}
-
-.form {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 label {
@@ -800,7 +801,7 @@ select {
     padding-right: 10px;
 }
 
-.form1, .form2, .form3, .form4, .form5, .form6, .submit {
+.contact-form-row, .submit {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -814,7 +815,7 @@ select {
 }
 
 .form3, .form4 {
-    margin-top: 15px
+    margin-top: 15px;
 }
 
 .side, .home-address, .physio-address {
@@ -828,8 +829,6 @@ select {
     margin-top: 50px;
     margin-right: 10px;
 }
-
-
 
 .same-address {
     font-size: 15px;
@@ -1225,7 +1224,6 @@ select {
     .contact-us-text {
         display: flex;
         flex-direction: column;
-        padding: 20px 100px 30px 100px;
         text-align: center;
     }
 
@@ -1237,6 +1235,14 @@ select {
         height: auto;
     }
 }   
+
+@media (max-width: 750px) {
+    .contact-form-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media (max-width: 700px) {
     .image-banner {
         display: grid;
@@ -1426,15 +1432,14 @@ select {
     .contact-us-text {
         display: flex;
         flex-direction: column;
-        padding: 20px 20px 30px 20px;
         text-align: center;
     }
 
-    .form1, .form2, .form3, .row-services {
+    /* .form1, .form2, .form3, .row-services {
         display: flex;
         flex-direction: column;
         width: 300px;
-    }
+    } */
 
     .form4 {
         height: 150px;

@@ -82,15 +82,32 @@
             </div>
             <p>Most people choose to start with a New Patient Assessment so we can provide clarity and guidance from the first visit.</p>    
             <p>If you have any questions or would like to request an alternative appointment time to what is on the booking page please use our <span class="use-form">contact form</span> below, or contact us on <span class="email-address">info@buzzybeesphysio.co.uk</span>.</p>
+            <div id="phone-text">
+                <p><b>Prefer to speak to someone?</b></p>
+                <p><b>Phone:</b> 07752 884576</p>
+                <p><b>Voicemail only</b> — calls returned within one working day.</p>
+                <p>We’re a small, family-run home visit physiotherapy service.</p>
+                <p>To make sure our patients get our full attention, calls aren’t answered live.</p>
+                <p>You’re very welcome to leave a voicemail and we’ll return your call within one working day.</p>
+            </div>
+        
         </section>
 
+        <!-- ‘Prefer to speak to someone?
+Phone: 07752 884576
+Voicemail only — calls returned within one working day.
+We’re a small, family-run home visit physiotherapy service.
+To make sure our patients get our full attention, calls aren’t answered live.
+You’re very welcome to leave a voicemail and we’ll return your call within one working day.’
+ -->
+
         <div class="flex-contact">
-            <section class="form">
+            <section id="contact-form" class="form">
                 <form name="Contact Form" method="POST" action="/form-submitted/index.html" netlify>
                     <fieldset>
                         <legend>Contact Form</legend>
 
-                        <div class="form1">
+                        <div class="contact-form-row form1">
                             <div class="side">
                                 <label for="name">Name</label>
                                 <input type="text" name="name" id="name">
@@ -101,7 +118,7 @@
                             </div>
                         </div>
                     
-                        <div class="form2">
+                        <div class="contact-form-row form2">
                             <div class="side">
                                 <label for="email">Email address</label>
                                 <input type="email" name="email" id="email">
@@ -113,7 +130,7 @@
 
                         </div>
 
-                        <div class="form3">
+                        <div class="contact-form-row form3">
                             <div class="home-address">
                                 <label for="home-address">Home address</label>
                                 <textarea type="text" name="home-address" id="home-address"></textarea>
@@ -130,7 +147,7 @@
                         </div>
                         </div>
 
-                        <div class="form4">
+                        <div class="contact-form-row form4">
                             <div class="row row-services">
                                 <label for="services" class="services-label">Select required service:</label>
                                 <select id="services" name="services">
@@ -145,12 +162,12 @@
                             <textarea id="dynamic-textarea" class="textarea-concerns" name="concerns" placeholder="Please describe your concerns" style="display:none;"></textarea>
                         </div>
 
-                        <div class="form5">
+                        <div class="contact-form-row form5">
                             <label for="outcome">Desired outcome</label>
                             <textarea type="text" name="outcome" id="outcome"></textarea>
                         </div>
 
-                        <div class="form6">
+                        <div class="contact-form-row form6">
                             <div>
                             <p class="if-nhs">If the prospective patient is a child, do they currently have an open NHS physiotherapy referral?</p>
                             </div>
