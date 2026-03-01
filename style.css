@@ -255,6 +255,18 @@ footer section {
     justify-content: space-evenly;
     padding: 0 10%;
 }
+
+#calls-li {
+    text-align: center;
+    padding: 0 10%;
+}
+
+#calls-li span {
+    width: 100%;
+}
+
+
+
 .footer-navigation a {
     text-decoration: none;
     color: #1b0e02fa;
