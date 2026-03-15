@@ -552,7 +552,8 @@ footer section {
     width: 216px;
     height: 216px;
     bottom: 80px; 
-    left: 0px;
+    /* left: 0px; */
+    padding-right: 400px;
 }
 
 .prices6 {
