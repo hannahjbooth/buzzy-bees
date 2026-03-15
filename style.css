@@ -1,19 +1,4 @@
-/* Base styles for computer screens */
 
-.hidden {
-    display: none;
-}
-
-
-
-    /* Dynamic styling */
-
-.current {
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    text-decoration-thickness: 1px;
-}
-/* Main styles */
 html {
     scroll-behavior: smooth;
 }
@@ -41,34 +26,31 @@ main {
     padding-bottom: 50px;
     position: relative;
     z-index: 0;
-
 }
 
-
 /* Scribble */
-
 .main-h2-and-scribble {
     text-align: center;
 }
 
-  .main-h2 {
-    font-size: 38px; 
-    text-align: center; 
-    font-weight: 400;
-    margin-bottom: 0px;
-  }
-  
-  .scribble {
-    font-size: 60px;
-    stroke: #e3b884e8;
-    stroke-width: 0.05em;
-    stroke-linecap: square;
-    stroke-linejoin: bevel;
-    fill: none;
-    margin-top: -200px;
-    width: 300px;
-    height: 100px;
-  }
+.main-h2 {
+font-size: 38px; 
+text-align: center; 
+font-weight: 400;
+margin-bottom: 0px;
+}
+
+.scribble {
+font-size: 60px;
+stroke: #e3b884e8;
+stroke-width: 0.05em;
+stroke-linecap: square;
+stroke-linejoin: bevel;
+fill: none;
+margin-top: -200px;
+width: 300px;
+height: 100px;
+}
 
 .divider-scribble {
     display: flex;
@@ -82,8 +64,6 @@ main {
 header {
     display: flex;
     box-sizing: border-box;
-    /* padding-left: 50px;
-    padding-right: 50px; */
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -93,8 +73,6 @@ header {
     border-bottom: solid;
     border-bottom-width: 1px;
     border-bottom-color: #7a624d13;
-    /* border-style:solid;
-    border-color: #7a624d39; */
 }
 
 header, .logo-and-title, .links, .row1 {
@@ -111,15 +89,11 @@ h1 {
     font-weight: 300;
     color: #3e2106fa;
     margin: 10px;
-    /* width: 400px; */
 }
 
 .h1-layout-2 {
     display: none;
 }
-
-
-
 
 .header-logo {
     width: 150px;
@@ -132,10 +106,6 @@ nav {
     display: flex;
     flex-direction: row;
 }
-
-
-
-
 
 .links {
     display: flex;
@@ -185,10 +155,6 @@ nav li.button a {
     text-decoration: none;
     color: #ffffff;
 }
-
-
-
-/* Main bodies */
 
 h2 {
     text-align: center;
@@ -265,8 +231,6 @@ footer section {
     width: 100%;
 }
 
-
-
 .footer-navigation a {
     text-decoration: none;
     color: #1b0e02fa;
@@ -300,8 +264,6 @@ footer section {
     transition: background-color 0.2s ease;
 }
 
-
-
 .logo-images {
     display: flex;
     justify-content: center;
@@ -320,38 +282,12 @@ footer section {
     padding: 2px;
     margin: 2px;
 }
-/* 
-.footer-logo1 {
-    width: 254px;
-    height: 226px;
-}
-
-.footer-logo2 { 
-    width: 139px;
-    height: 226px;
-}
-
-.footer-logo3 { 
-    width: 319px;
-    height: 148px;
-}
-
-.footer-logo4 { 
-    width: 137px;
-    height: 226px; 
-} */
-
 
 .copyright {
     text-align: center;
 }
 
-
-
-    /* Home */
-
-        /* Hero Section */
-
+/* Home */
 .welcome-h2 {
     font-size: 48px;
     font-weight: 200;
@@ -373,8 +309,6 @@ footer section {
 }
 
 .image-banner {
-    /* overflow-x: auto; */
-    /* white-space: nowrap; */
     max-width: 100%;
 } 
 
@@ -387,8 +321,7 @@ footer section {
     align-items: center;
 }
 
-        /* Achieve your potential */
-
+/* Achieve your potential */
 .potential {
     display: flex;
     justify-content: space-between;
@@ -425,8 +358,7 @@ footer section {
     font-size: 16px;
 }
 
-        /* Services */
-
+/* Services */
 .services {
     display: flex;
     justify-content: space-between;
@@ -453,8 +385,6 @@ footer section {
     height: 1150px;
 }
 
-
-
 .inline {
     display: inline;
 
@@ -464,10 +394,7 @@ footer section {
     margin-bottom: 15px;
 }
 
-
-
 /* Meet the Team */
-
 .introduction {
     display: flex;
     flex-direction: column;
@@ -510,7 +437,6 @@ footer section {
     margin-top: 5px;
 }
 
-
 .claire-photo {
     width: 550px;
     height: auto;
@@ -525,14 +451,13 @@ footer section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 220px 0px 220px;
+    margin: 0 15%;
 }
 .physio-profile p {
     line-height: 1.8;
     font-weight: 300;
     font-size: 16px;
     text-align: justify;
-
 }
 
 .physio-team ul, .physio-team li {
@@ -540,7 +465,6 @@ footer section {
     line-height: 2.5;
     font-weight: 300;
     font-size: 16px;
-
 }
 
 .physio-title {
@@ -554,7 +478,6 @@ footer section {
 }
 
 /* Prices */
-
 .service-section {
     display: flex;
     flex-direction: column;
@@ -586,13 +509,13 @@ footer section {
     display: flex;
     justify-content: center;
     position: relative;
-    max-width: 100%; /* Set the container width */
-    height: 540px; /* Set the container height */
+    max-width: 100%;
+    height: 540px;
 }
 
 .prices-image-banner img {
-    position: absolute; /* Position images absolutely within the container */
-    height: auto; /* Maintain aspect ratio */
+    position: absolute;
+    height: auto;
 }
 
 .prices1 {
@@ -684,14 +607,11 @@ footer section {
     font-size: 15px;
     font-weight: 300;
     text-decoration: none;
-
 }
 
 .service-section {
     padding-bottom: 50px
 }
-
-
 
 aside.terms {
     height: 1200px;
@@ -705,15 +625,16 @@ aside.terms {
 .terms-h2 {
     color:#ffffff;
 }
+
 .terms-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color:#ffffff;
-    margin: 0px 300px 20px 300px;
-    backdrop-filter: blur(10px); /* Apply the blur effect */
-    -webkit-backdrop-filter: blur(10px); /* For Safari */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Optional: shadow for better contrast */
+    margin: 0 20%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
     margin-top: 20px;
@@ -723,13 +644,10 @@ aside.terms {
     list-style-type: initial;
 }
 
-
 /* Contact Us */
-
 .main-contact {
     padding-bottom: 0px;
 }
-
 
 .email-address, .use-form {
     font-weight: 500;
@@ -742,8 +660,7 @@ aside.terms {
     text-align: center;
 }
 
-    /* Form */
-
+/* Form */
 #dynamic-textarea {
     display: none;
 }
@@ -791,7 +708,6 @@ legend {
     font-weight: 300;
     text-decoration: none;
     margin-bottom: 8px;
-
 }
 
 label {
@@ -861,15 +777,15 @@ select {
     align-items: center;
     height: 30px;
 }
-.new-textarea{
+.new-textarea {
     width: 100%;
 }
+
 .textarea-concerns {
     width: 100%;
     height: 100px;
     margin-top: 10px;
 }
-
 
 #name, #phone, #email, #home-address, #physio-address, .physio-address-label {
     width: 300px;
@@ -952,7 +868,6 @@ select {
 }
 
 /* New Patients - What to Expect */
-
 #new-patients-what-to-expect {
     display: flex;
     flex-direction: column;
@@ -989,7 +904,6 @@ select {
     font-weight: 400;
     text-decoration: none;
     color: #ffffff;
-
 }
 
 .new-patient-button:hover {
@@ -998,7 +912,6 @@ select {
 }
 
 /* Form submitted */
-
 #form-submitted {
     display: flex;
     flex-direction: column;
@@ -1008,14 +921,10 @@ select {
 #form-submitted p {
     text-align: center;
     margin: 2% 5%;
-
 }
 
-
 /* Responsive Breakpoints */
-
 @media (max-width: 1310px) {
-
     header {
         justify-content: initial;
     }
@@ -1044,16 +953,7 @@ select {
 
     .title {
         font-size: 20px;
-        /* padding-left: 10px; */
     }
-/* 
-    li.button {
-        margin-left: 40px;
-    } */
-
-    /* .links {
-        padding-left: 25px;
-    } */
 }    
 
 @media (max-width: 1091px) {
@@ -1063,16 +963,11 @@ select {
     }
     .title {
         font-size: 19px;
-        /* padding-left: 10px; */
     }
 
     li.button {
         margin-left: 10px;
     }
-
-    /* .links {
-        padding-left: 10px;
-    } */
 
     .what-to-expect-main-sections {
         width: 80%;
@@ -1080,10 +975,7 @@ select {
 }    
 
 @media (max-width: 1000px) {
-    
-    
     /* Header */
-
     .logo-and-title {
         max-width: 100%;
     }
@@ -1096,7 +988,6 @@ select {
         padding: 0px;
         margin: 0px 0px 10px 0px;
     }
-
 
     .h1-layout-1 {
         display: initial;
@@ -1113,8 +1004,6 @@ select {
     }
     .title {
         font-size: 19px;
-        /* padding-left: 10px; */
-        /* text-align: center; */
     }
 
     li.button {
@@ -1125,6 +1014,11 @@ select {
     main {
         margin-top: 220px;
     }
+
+    /* Prices */
+    .terms-text {
+        margin: 2% 10%;
+    }
 }    
 
 @media (max-width: 900px) {
@@ -1133,9 +1027,6 @@ select {
         padding-left: 0px;
         padding-right: 30px;
     }
-    /* .title {
-        padding-left: 10px;
-    } */
 
     li.button {
         margin-left: 10px;
@@ -1145,19 +1036,14 @@ select {
         font-size: 15px;
     }
 
-    /* .links {
-        padding-left: 5px;
-    } */
-
     /* Client quotes */
-
     .client-quotes {
     text-align: center;
     background-color: #ffffff;
     padding: 20px 40px;
     font-size: 22px;
     font-weight: 300;
-}
+    }
 }   
 
 @media (max-width: 800px) {
@@ -1166,6 +1052,7 @@ select {
         padding-left: 0px;
         padding-right: 30px;
     }
+
     .title {
         font-size: 16px;
     }
@@ -1180,7 +1067,6 @@ select {
 
     header {
         max-width: 100%;
-        /* height: 200px; */
         padding: 0px;
         display: flex;
         flex-direction: column;
@@ -1188,12 +1074,7 @@ select {
 
     .header-logo {
         width: 100px;
-
     }
-
-    /* .logo-and-title {
-        max-width: 100%;
-    } */
 
     .title {
         margin: 0px;
@@ -1202,7 +1083,6 @@ select {
     }
 
     .links .button {
-        /* flex: 1 1 60%;  */
         width: 220px;
         margin-left: 150px;
         margin-right: 150px;
@@ -1214,7 +1094,6 @@ select {
     }
 
     /* Services */
-
     #services {
         scroll-margin-top: 225px;
         flex-direction: column;
@@ -1231,7 +1110,6 @@ select {
     }
 
     /* Contact Us */
-
     .contact-us-text {
         display: flex;
         flex-direction: column;
@@ -1239,7 +1117,6 @@ select {
     }
 
     /* Footer */
-
     .logo-images img {
         min-width: 0;
         max-width: 100%;
@@ -1282,8 +1159,8 @@ select {
     }
 
     .footer-info-sections > :last-child {
-        grid-column: 1 / -1;   /* span both columns */
-        justify-self: center;  /* center horizontally */
+        grid-column: 1 / -1;
+        justify-self: center;
     }
 }
 
@@ -1300,6 +1177,10 @@ select {
 
     .links > :last-child {
         grid-column: 2;
+    }
+
+    .physio-profile-text {
+        margin: 0 10%;
     }
 }
 
@@ -1332,7 +1213,6 @@ select {
 
     .header-logo {
         width: 100px;
-
     }
 
     .logo-and-title {
@@ -1374,10 +1254,7 @@ select {
 }
 
 @media (max-width: 430px) {
-
     /* Main */
-
-
     .logo-images {
         padding: 5px;
         height:fit-content;
@@ -1410,7 +1287,6 @@ select {
         padding: 20px 0px 20px 0px;
     }
 
-
     /* Meet the Team */
     .physio-profile-text{
         margin: 0px 20px 0px 20px;
@@ -1431,10 +1307,6 @@ select {
     }
 
     /* Terms */
-    .terms-text {
-        margin: 0px 0px 0px 0px;
-    }
-
     form, .fieldset {
         width: 350px;
     }
@@ -1445,12 +1317,6 @@ select {
         flex-direction: column;
         text-align: center;
     }
-
-    /* .form1, .form2, .form3, .row-services {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-    } */
 
     .form4 {
         height: 150px;
@@ -1465,11 +1331,15 @@ select {
     .textarea-concerns {
         margin-top: 50px;
     }
-
-
 }
 
+/* Dynamic styling */
+.current {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 1px;
+}
 
-
-
-
+.hidden {
+    display: none;
+}
