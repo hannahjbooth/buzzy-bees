@@ -1201,15 +1201,6 @@ select {
         font-size: 18px;
     }
 
-    /* .links {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 0px;
-        margin: 0px 0px 10px 0px;
-    } */
-
     .links .button {
         /* flex: 1 1 60%;  */
         width: 220px;
@@ -1225,7 +1216,7 @@ select {
     /* Services */
 
     #services {
-        scroll-margin-top: 170px;
+        scroll-margin-top: 225px;
         flex-direction: column;
     }
 
