@@ -924,6 +924,25 @@ select {
     margin: 2% 5%;
 }
 
+/* Policies */
+
+.main-policies section {
+    margin: 5%;
+}
+
+#policies-list {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));     */
+}
+
+#policies-list li {
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 120px;
+    width: auto;
+    white-space: nowrap;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 1310px) {
     header {
