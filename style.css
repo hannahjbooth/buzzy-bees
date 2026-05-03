@@ -424,6 +424,12 @@ footer section {
     padding: 20px 20px 0 20px;
 }
 
+/* test */
+/* .physio-claire {
+    display: flex;
+    flex-direction: row;
+} */
+
 .physio-photo {
     display: flex;
     justify-content: center;
@@ -441,6 +447,10 @@ footer section {
     width: 550px;
     height: auto;
     clip-path: inset(0px 65px 0px 70px);
+}
+
+.claire-photo {
+    width: 410px;
 }
 
 .lauren-photo, .molly-photo, .gemma-photo {
