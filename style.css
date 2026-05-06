@@ -387,7 +387,6 @@ footer section {
 
 .inline {
     display: inline;
-
 }
 
 .services-list li {
@@ -395,13 +394,12 @@ footer section {
 }
 
 /* Meet the Team */
-.introduction {
+.team-introduction {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;    
+    padding-bottom: 2%;
 }
 
 .client-quotes {
@@ -421,18 +419,24 @@ footer section {
 }
 
 .physio-profile {
-    padding: 20px 20px 0 20px;
-}
-
-/* test */
-/* .physio-claire {
     display: flex;
     flex-direction: row;
-} */
+    justify-content: space-between;
+}
 
 .physio-photo {
+    width: 30%;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.physio-text {
+    width: 70%;
+}
+
+.main-meet-the-team section {
+    margin: 0 3%;
 }
 
 .main-meet-the-team h4 {
@@ -443,26 +447,14 @@ footer section {
     margin-top: 5px;
 }
 
-.claire-photo {
-    width: 550px;
-    height: auto;
-    clip-path: inset(0px 65px 0px 70px);
+.physio-photo img {
+    width: 90%;
 }
 
-.claire-photo {
-    width: 410px;
+.physio-description {
+    margin: 0 6%;
 }
 
-.lauren-photo, .molly-photo, .gemma-photo {
-    width: 410px;
-}
-
-.physio-profile-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 15%;
-}
 .physio-profile p {
     line-height: 1.8;
     font-weight: 300;
@@ -1074,6 +1066,11 @@ select {
     font-size: 22px;
     font-weight: 300;
     }
+
+    /* Meet the Team */
+    .physio-photo {
+        align-items: baseline;
+    }
 }   
 
 @media (max-width: 800px) {
@@ -1152,6 +1149,20 @@ select {
         max-width: 100%;
         height: auto;
     }
+
+    /* Meet the Team */
+    .physio-profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .physio-text {
+        width: 95%;
+    }
+
+    .physio-photo {
+        width: 40%;
+    }
 }   
 
 @media (max-width: 750px) {
@@ -1162,6 +1173,7 @@ select {
 }
 
 @media (max-width: 700px) {
+
     .image-banner {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -1195,6 +1207,8 @@ select {
 }
 
 @media (max-width: 600px) {
+
+
     .links {
         display: grid;
         grid-template-columns: 33% 33% 33%;
