@@ -1337,6 +1337,9 @@ select {
         margin-top: 250px;
     }
 
+    .welcome-h2 {
+        font-size: 38px;
+    }
 }
 
 
@@ -1344,6 +1347,11 @@ select {
     /* Header */
     .links .plain {
         padding-left: 5px;
+    }
+
+    /* Main */
+    .welcome-h2 {
+        font-size: 30px;
     }
 
     /* Footer */
@@ -1364,6 +1372,11 @@ select {
         padding: 0px;
         display: flex;
         flex-direction: column;
+    }
+
+    /* Main */
+    .welcome-h2 {
+        font-size: 26px;
     }
 
     .header-logo {
