@@ -484,11 +484,7 @@ footer section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 1% 0 4% 0;
-}
-
-.service-physio, .service-hydro {
-    height: 450px;
+    margin: 5% 0 5% 0;
 }
 
 .prices-text {
@@ -525,7 +521,7 @@ footer section {
 .prices3 {
     z-index: 0;
     height: 90%;
-    right: 5%;
+    right: 0;
     bottom: 0;
 }
 
@@ -1015,6 +1011,53 @@ select {
     .terms-text {
         margin: 2% 10%;
     }
+
+    /* .service-section {
+        margin: 10% 0;
+    } */
+
+    .prices1 {
+        z-index: 1;
+        height: 30%;
+        /* top: 0px;  */
+        right: -20px;
+    }
+
+    .prices2 {
+        z-index: 0;
+        height: 60%;
+        top: 20%;
+        /* bottom: 0px; */
+    }
+
+    .prices3 {
+        z-index: 0;
+        height: 70%;
+        right: 5%;
+        bottom: 0;
+    }
+
+    .prices4 {
+        z-index: 1;
+        height: 35%;
+        left: 0px;
+        top: 5%;
+    }
+
+    .prices5 {
+        z-index: 1;
+        height: 30%;
+        right: 10%;
+        bottom: 15%;
+    }
+
+    .prices6 {
+        z-index: 0;
+        left: 5%;
+        top: 10%;
+        height: 50%;
+    }
+
 }    
 
 @media (max-width: 900px) {
@@ -1045,6 +1088,54 @@ select {
     .physio-photo {
         align-items: baseline;
     }
+
+    /* Prices */
+
+    .services-text {
+        margin: 0 2%;
+    }
+    .prices1 {
+        z-index: 1;
+        height: 30%;
+        /* top: 0px;  */
+        right: -20px;
+    }
+
+    .prices2 {
+        z-index: 0;
+        height: 60%;
+        top: 20%;
+        /* bottom: 0px; */
+    }
+
+    .prices3 {
+        z-index: 0;
+        height: 60%;
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .prices4 {
+        z-index: 1;
+        height: 30%;
+        left: 0px;
+        top: 5%;
+    }
+
+    .prices5 {
+        z-index: 1;
+        height: 30%;
+        right: 10%;
+        bottom: 15%;
+    }
+
+    .prices6 {
+        z-index: 0;
+        left: 5%;
+        top: 20%;
+        height: 40%;
+    }
+
 }   
 
 @media (max-width: 800px) {
@@ -1109,6 +1200,54 @@ select {
         width: 80%;
         border-radius: 20px;
     }
+
+    /* Prices */
+    .service-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    .prices-text {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .prices-image-banner img {
+        position: initial;
+    }
+
+    /* .prices1 {
+        height: 30%;
+    } */
+
+    .prices1, .prices4, .prices5 {
+        height: 150px;
+        margin-bottom: 10px;
+    }
+
+    .prices2, .prices3, .prices6  {
+        display: none;
+    }
+
+
+    /* .prices4 {
+        z-index: 1;
+        height: 30%;
+        left: 0px;
+        top: 5%;
+    } */
+
+    /* .prices5 {
+        z-index: 1;
+        height: 30%;
+        right: 10%;
+        bottom: 15%;
+    } */
+
 
     /* Contact Us */
     .contact-us-text {
@@ -1312,11 +1451,6 @@ select {
 
     .claire-photo, .lauren-photo {
         width: 360px
-    }
-
-    /* Prices */
-    .prices-image-banner, .prices1,  .prices2,  .prices3,  .prices4,  .prices5,  .prices6,  .prices7,  .prices8 {
-        display: none;
     }
 
     /* Terms */
