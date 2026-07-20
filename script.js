@@ -169,7 +169,6 @@ if (document.querySelector("main.main-contact")) {
 // Accordeon
 
 let titles = Array.from(document.getElementsByClassName("accordeon-button"));
-console.log("titles", titles);
 
 for (let title of titles) {
   title.addEventListener("click", () => {
@@ -179,3 +178,26 @@ for (let title of titles) {
     content.classList.toggle("visible");
   });
 }
+
+// Stick current policy to the viewport
+
+for (let title of titles) {
+  title.addEventListener("click", () => {
+    let parent = title.parentElement;
+    let content = parent.querySelector(".accordeon-content");
+
+    title.classList.toggle("sticky");
+    content.classList.toggle("inner-scroll");
+  });
+}
+
+// Toggle + and -
+
+// for (let title of titles) {
+//   title.addEventListener("click", () => {
+//     let parent = title.parentElement;
+//     let h3 = title.child;
+
+//     h3.classList.toggle(".minus");
+//   });
+// }

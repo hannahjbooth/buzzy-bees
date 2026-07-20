@@ -922,7 +922,11 @@ select {
 /* Policies */
 
 .main-policies section {
-  margin: 5%;
+  margin: 0 0 2% 5%;
+}
+
+.main-policies h3 {
+  margin: 0;
 }
 
 #policies-list {
@@ -976,12 +980,35 @@ select {
   color: #f7aa03;
 }
 
+.minus {
+  content: "-";
+}
+
+.plus {
+  content: "+";
+}
+
 .accordeon-content {
   display: none;
 }
 
 .accordeon-content.visible {
   display: initial;
+}
+
+.sticky {
+  position: sticky;
+  top: 160px;
+  padding: 20px 0 0px 0;
+  background-color: #fff9f0;
+  z-index: 1;
+}
+
+.inner-scroll {
+  top: 196px;
+  position: sticky;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 /* Responsive Breakpoints */
