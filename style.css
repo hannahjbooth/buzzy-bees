@@ -1,904 +1,928 @@
-
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    color: #583b1ffa;   
-    position: relative;
-    /* font-size: 17px; */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #583b1ffa;
+  position: relative;
+  /* font-size: 17px; */
 }
 
 body ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 main {
-    background-color: #f7aa0313;
-    width: 100%;
-    margin-top: 151px;
-    padding-bottom: 50px;
-    z-index: 0;
+  background-color: #f7aa0313;
+  width: 100%;
+  margin-top: 151px;
+  padding-bottom: 50px;
+  z-index: 0;
 }
 
 /* Scribble */
 .main-h2-and-scribble {
-    text-align: center;
+  text-align: center;
 }
 
 .main-h2 {
-font-size: 38px; 
-text-align: center; 
-font-weight: 400;
-margin-bottom: 0px;
+  font-size: 38px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0px;
 }
 
 .scribble {
-font-size: 60px;
-stroke: #e3b884e8;
-stroke-width: 0.05em;
-stroke-linecap: square;
-stroke-linejoin: bevel;
-fill: none;
-margin-top: -200px;
-width: 300px;
-height: 100px;
+  font-size: 60px;
+  stroke: #e3b884e8;
+  stroke-width: 0.05em;
+  stroke-linecap: square;
+  stroke-linejoin: bevel;
+  fill: none;
+  margin-top: -200px;
+  width: 300px;
+  height: 100px;
 }
 
 .divider-scribble {
-    display: flex;
+  display: flex;
 }
 
 .divider-scribble .scribble {
-    margin-top: 0;
-    margin: 0 auto;
+  margin-top: 0;
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    background-color: white;
-    width: 100vw;
-    z-index: 1;
-    border-bottom: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #7a624d13;
+  display: flex;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  z-index: 1;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #7a624d13;
 }
 
-header, .logo-and-title, .links, .row1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+header,
+.logo-and-title,
+.links,
+.row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 24px;
-    font-weight: 300;
-    color: #3e2106fa;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: 300;
+  color: #3e2106fa;
+  margin: 10px;
 }
 
 .h1-layout-2 {
-    display: none;
+  display: none;
 }
 
 .header-logo {
-    width: 150px;
-    height: 100%;
+  width: 150px;
+  height: 100%;
 }
 
 nav {
-    font-weight: 250;
-    font-size: 16px;
-    display: flex;
-    flex-direction: row;
+  font-weight: 250;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
 }
 
 .links {
-    display: flex;
-    justify-content: space-between;
-    white-space: nowrap;
-    padding-inline-start: 0;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  padding-inline-start: 0;
 }
 
 .links .plain {
-    padding: 10px;
+  padding: 10px;
 }
 
 li.plain {
-    color: #583b1ffa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 300;
+  color: #583b1ffa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 li.button {
-    background-color: #583b1ffa;
-    margin: 0 30px 0 10px;
-    height: 56px;
-    padding: 2px 20px;
-    /* width: 240px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
+  background-color: #583b1ffa;
+  margin: 0 30px 0 10px;
+  height: 56px;
+  padding: 2px 20px;
+  /* width: 240px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 li.button:hover {
-    background-color: #7a624d;
-    transition: background-color 0.2s ease;
+  background-color: #7a624d;
+  transition: background-color 0.2s ease;
 }
 
 nav li.plain a {
-    text-decoration: none;
-    color: #583b1ffa;
+  text-decoration: none;
+  color: #583b1ffa;
 }
 
 nav li.button a {
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 /* Footer */
 footer {
-    /* color: #1b0e02fa; */
-    color: #3e2106fa;
+  /* color: #1b0e02fa; */
+  color: #3e2106fa;
 }
 
 .footer-title {
-    font-weight: 400;
-    font-size: 19px;
-    margin-bottom: 5px;
-    padding: 0;
-    /* text-decoration: underline;
+  font-weight: 400;
+  font-size: 19px;
+  margin-bottom: 5px;
+  padding: 0;
+  /* text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 1px; */
-    color: #1b0e02fa;
+  color: #1b0e02fa;
 }
 
 .navigation-h3 {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 #main-book-now h3 {
-    text-align: center;
+  text-align: center;
 }
 
 footer section {
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-info-sections {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0;
 }
 .footer-info-sections h3 {
-    /* display: flex;
+  /* display: flex;
     justify-content: center; */
-    font-weight: 400;
-    margin-bottom: 0;
-    color: #1b0e02fa;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #1b0e02fa;
 }
 
 .footer-info-sections ul {
-    padding: 0px;
-    margin-top: 10px;
+  padding: 0px;
+  margin-top: 10px;
 }
 
 .footer-info-sections ul li {
-    display: flex;
-    justify-content: center;
-    color: #1b0e02fa;
-    font-weight: 300;
+  display: flex;
+  justify-content: center;
+  color: #1b0e02fa;
+  font-weight: 300;
 }
 
 #phone-li {
-    justify-content: space-evenly;
-    padding: 0 10%;
+  justify-content: space-evenly;
+  padding: 0 10%;
 }
 
 #calls-li {
-    text-align: center;
-    padding: 0 10%;
+  text-align: center;
+  padding: 0 10%;
 }
 
 #calls-li span {
-    width: 100%;
+  width: 100%;
 }
 
 .footer-navigation a {
-    text-decoration: none;
-    color: #1b0e02fa;
+  text-decoration: none;
+  color: #1b0e02fa;
 }
 
 .footer-availability {
-    max-width: 300px;
-    text-align: center;
+  max-width: 300px;
+  text-align: center;
 }
 .weekdays {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-contact-link {
-    background-color: #583b1ffa;
-    height: 56px;
-    width: 220px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    margin-bottom: 20px;
+  background-color: #583b1ffa;
+  height: 56px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 .footer-contact-link:hover {
-    background-color: #7a624d;
-    transition: background-color 0.2s ease;
+  background-color: #7a624d;
+  transition: background-color 0.2s ease;
 }
 
 .logo-images {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 90%;
-    /* width: fit-content; */
-    border-style: solid;
-    border-width: 1px;
-    padding: 18px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    border-color: #7a624d39;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 90%;
+  /* width: fit-content; */
+  border-style: solid;
+  border-width: 1px;
+  padding: 18px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-color: #7a624d39;
 }
 
 .copyright p {
-    padding: 2px;
-    margin: 2px;
+  padding: 2px;
+  margin: 2px;
 }
 
 .copyright {
-    text-align: center;
+  text-align: center;
 }
 
 /* Home */
 .welcome-h2 {
-    font-size: 48px;
-    font-weight: 200;
-    margin: 0;
+  font-size: 48px;
+  font-weight: 200;
+  margin: 0;
 }
 
 .bolder {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .hero-section {
-    text-align: center;
-    margin: 30px 30px 30px 30px;
+  text-align: center;
+  margin: 30px 30px 30px 30px;
 }
 
 .hero-paragraphs {
-    margin-top: 30px;
-    font-size: 17px;
+  margin-top: 30px;
+  font-size: 17px;
 }
 
 .image-banner {
-    max-width: 100%;
-} 
+  max-width: 100%;
+}
 
 .image-banner img {
-    width: 300px;
-    height: 200px;
-    margin: 2px;
-    overflow-x: auto;
-    white-space: nowrap;
-    align-items: center;
+  width: 300px;
+  height: 200px;
+  margin: 2px;
+  overflow-x: auto;
+  white-space: nowrap;
+  align-items: center;
 }
 
 /* Achieve your potential */
 .potential {
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 30px 30px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 30px 30px 30px;
 }
 
 .potential-ul {
-    padding-left: 15%;
+  padding-left: 15%;
 }
 
 .potential-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .potential-image img {
-    max-width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-    width: 600px; 
-    height: 1150px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 600px;
+  height: 1150px;
 }
 
 .potential-text {
-    flex: 1;
+  flex: 1;
 }
 
 .potential-ul li {
-    list-style-type: initial;
-    line-height: 2.2;
-    font-weight: 300;
-    font-size: 16px;
+  list-style-type: initial;
+  line-height: 2.2;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 /* Services */
 .services {
-    display: flex;
-    justify-content: space-between;
-    margin: 60px 30px 30px 30px;
-    scroll-margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 30px 30px 30px;
+  scroll-margin-top: 200px;
 }
 
 .services-text {
-    flex: 1;
+  flex: 1;
 }
 
 .services-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-image img {
-    max-width: 100%; 
-    height: auto; 
-    object-fit: cover; 
-    width: 600px; 
-    height: 1150px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 600px;
+  height: 1150px;
 }
 
 .inline {
-    display: inline;
+  display: inline;
 }
 
 .services-list li {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 /* Meet the Team */
 .team-introduction {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2%;
 }
 
 .client-quotes {
-    text-align: center;
-    background-color: #ffffff;
-    padding: 20px 210px 20px 210px;
-    font-size: 22px;
-    font-weight: 300;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px 210px 20px 210px;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 .client-quotes .name {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .physio-team {
-    display: flex;
+  display: flex;
 }
 
 .physio-profile {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .physio-photo {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .physio-text {
-    width: 70%;
+  width: 70%;
 }
 
 .main-meet-the-team section {
-    margin: 0 3%;
+  margin: 0 3%;
 }
 
 .main-meet-the-team h4 {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .main-meet-the-team ul {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .physio-photo img {
-    width: 90%;
+  width: 90%;
 }
 
 .physio-description {
-    margin: 0 6%;
+  margin: 0 6%;
 }
 
 .physio-profile p {
-    line-height: 1.8;
-    font-weight: 300;
-    font-size: 16px;
-    text-align: justify;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
 }
 
-.physio-team ul, .physio-team li {
-    list-style-type: initial;
-    line-height: 2.5;
-    font-weight: 300;
-    font-size: 16px;
+.physio-team ul,
+.physio-team li {
+  list-style-type: initial;
+  line-height: 2.5;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .physio-title {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .physio-position {
-    text-align: center;
+  text-align: center;
 }
 
 /* Prices */
 .service-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 5% 0 5% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5% 0 5% 0;
 }
 
 .prices-text {
-    display: flex;
-    align-items: center;
-    width: 60%;
+  display: flex;
+  align-items: center;
+  width: 60%;
 }
 
 .prices-image-banner {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    width: 30%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 30%;
 }
 
 .prices-image-banner img {
-    position: absolute;
-    max-height: 400px;
+  position: absolute;
+  max-height: 400px;
 }
-    
+
 .prices1 {
-    z-index: 1;
-    height: 45%;
-    /* top: 0px;  */
-    right: -20px;
+  z-index: 1;
+  height: 45%;
+  /* top: 0px;  */
+  right: -20px;
 }
 
 .prices2 {
-    z-index: 0;
-    height: 90%;
-    bottom: 0px;
+  z-index: 0;
+  height: 90%;
+  bottom: 0px;
 }
 
 .prices3 {
-    z-index: 0;
-    height: 90%;
-    right: 0;
-    bottom: 0;
+  z-index: 0;
+  height: 90%;
+  right: 0;
+  bottom: 0;
 }
 
 .prices4 {
-    z-index: 1;
-    height: 40%;
-    left: 0px;
-    top: 0px;
+  z-index: 1;
+  height: 40%;
+  left: 0px;
+  top: 0px;
 }
 
 .prices5 {
-    z-index: 1;
-    height: 40%;
-    bottom: 0;
-    right: 10%;
-
+  z-index: 1;
+  height: 40%;
+  bottom: 0;
+  right: 10%;
 }
 
 .prices6 {
-    z-index: 0;
-    left: 5%;
-    top: 5%;
+  z-index: 0;
+  left: 5%;
+  top: 5%;
 }
 
 .physio-prices {
-    list-style-type: initial;
+  list-style-type: initial;
 }
 
 .physio-prices li {
-    margin: 1% 0;
+  margin: 1% 0;
 }
 
 .prices-h3 {
-    font-size: 30px;
-    text-align: center;
-    font-weight: 400;
-    margin: 0px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0px;
 }
 
 .travel-charge {
-    text-align: center;
-    margin-top: 0px;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .more-info-button {
-    display: flex;
-    justify-content: center;
-    margin: 3% 0;  
+  display: flex;
+  justify-content: center;
+  margin: 3% 0;
 }
 
 .more-info {
-    background-color: #583b1ffa;
-    height: 60px;
-    width: 220px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;
-    font-size: 15px;
-    font-weight: 300;
-    text-decoration: none;
+  background-color: #583b1ffa;
+  height: 60px;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 aside.terms {
-    height: 1200px;
-    padding-top: 50px;
-    background-image: url("/assets/prices/prices9.jpeg");
-    background-size: cover;
-    background-position: 50% center;
-    scroll-margin-top: 150px;
+  height: 1200px;
+  padding-top: 50px;
+  background-image: url("/assets/prices/prices9.jpeg");
+  background-size: cover;
+  background-position: 50% center;
+  scroll-margin-top: 150px;
 }
 
 .terms-h2 {
-    color:#ffffff;
+  color: #ffffff;
 }
 
 .terms-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color:#ffffff;
-    margin: 0 20%;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    padding: 10px 30px 10px 30px;
-    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  margin: 0 20%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-top: 20px;
 }
 
 .terms-text li {
-    list-style-type: initial;
+  list-style-type: initial;
 }
 
 /* Contact Us */
 .main-contact {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-.email-address, .use-form {
-    font-weight: 500;
+.email-address,
+.use-form {
+  font-weight: 500;
 }
 
 .contact-us-text {
-    display: flex;
-    flex-direction: column;
-    margin: 2% 10% 5% 10%;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10% 5% 10%;
+  text-align: center;
 }
 
 /* Form */
 #dynamic-textarea {
-    display: none;
+  display: none;
 }
 
 .flex-contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    overflow: hidden;
-    position: relative;
-    height: 1250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+  height: 1250px;
 }
 
 #contact-form {
-    display: flex;
-    margin: 0 5%;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  margin: 0 5%;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 #phone-text p {
-    margin-top: 7px;
-    margin-bottom: 7px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: linear-gradient(to bottom, rgba(253, 236, 200, 1) 50%, rgba(253, 236, 200, 0.5) 100%);
-    border-color: #583b1fe7;
-    border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 236, 200, 1) 50%,
+    rgba(253, 236, 200, 0.5) 100%
+  );
+  border-color: #583b1fe7;
+  border-width: 1px;
 }
 
 legend {
-    text-align: center;
-    background-color: #583b1fe7;
-    height: 40px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    margin-bottom: 8px;
+  text-align: center;
+  background-color: #583b1fe7;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
 
 label {
-    padding-bottom: 5px
+  padding-bottom: 5px;
 }
 
 .physio-address-label {
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
-input, textarea, select {
-    font-size: 1rem;
-    height: 30px;
-    box-sizing: border-box;
+input,
+textarea,
+select {
+  font-size: 1rem;
+  height: 30px;
+  box-sizing: border-box;
 }
 
 select {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .form-a {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.contact-form-row, .submit {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin: 10px;
+.contact-form-row,
+.submit {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 10px;
 }
 
-.form4, .form5, .form6 {
-    display: flex;
-    flex-direction: column;
-    margin: 5px 20px 5px 20px;
+.form4,
+.form5,
+.form6 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px 5px 20px;
 }
 
-.form3, .form4 {
-    margin-top: 15px;
+.form3,
+.form4 {
+  margin-top: 15px;
 }
 
-.side, .home-address, .physio-address {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin: 0px 10px 0px 10px;
+.side,
+.home-address,
+.physio-address {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 0px 10px;
 }
 
 .home-address {
-    margin-top: 50px;
-    margin-right: 10px;
+  margin-top: 50px;
+  margin-right: 10px;
 }
 
 .same-address {
-    font-size: 15px;
-    padding-bottom: 0px;
+  font-size: 15px;
+  padding-bottom: 0px;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 30px;
 }
 .new-textarea {
-    width: 100%;
+  width: 100%;
 }
 
 .textarea-concerns {
-    width: 100%;
-    height: 100px;
-    margin-top: 10px;
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
 }
 
-#name, #phone, #email, #home-address, #physio-address, .physio-address-label {
-    width: 300px;
+#name,
+#phone,
+#email,
+#home-address,
+#physio-address,
+.physio-address-label {
+  width: 300px;
 }
 
-#home-address, #physio-address {
-    height: 100px;
+#home-address,
+#physio-address {
+  height: 100px;
 }
 
 #dob {
-    width: 150px;
-    margin-bottom: 6px;
+  width: 150px;
+  margin-bottom: 6px;
 }
 
 #outcome {
-    height: 100px;
-    width: 100%;
+  height: 100px;
+  width: 100%;
 }
 
 .yes-or-no {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.yes, .no {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;    
-    padding: 2px 10px 2px 4px;
-    border-style: solid;
-    border-color: #767676;
-    border-width: 1px;
-    background-color: #ffffff;
+.yes,
+.no {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 4px;
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  background-color: #ffffff;
 }
 
-.yes input, .no input {
-    height: 20px;
+.yes input,
+.no input {
+  height: 20px;
 }
 
-.nhs-yes, .nhs-no {
-    padding-bottom: 0px
+.nhs-yes,
+.nhs-no {
+  padding-bottom: 0px;
 }
 
 .no {
-    margin-left: 25px;
+  margin-left: 25px;
 }
 .submit {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 #submit {
-    background-color: #583b1ffa;
-    height: 56px;
-    width: 180px;
-    text-align: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 300;
-    text-decoration: none;
-    margin-bottom: 8px;
+  background-color: #583b1ffa;
+  height: 56px;
+  width: 180px;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
 
 #submit:hover {
-    background-color: #7a624d;
-    transition: background-color 0.2s ease;
+  background-color: #7a624d;
+  transition: background-color 0.2s ease;
 }
 
 .contact-image1 {
-    width: 1500px;
-    height: auto;
-    z-index: -1;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 25px;
-    object-fit: cover;
+  width: 1500px;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 25px;
+  object-fit: cover;
 }
 
 /* New Patients - What to Expect */
 #new-patients-what-to-expect {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #what-to-expect-p {
-    font-size: 17px;
-    font-weight: 500;
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .what-to-expect-main-sections li {
-    list-style-type: initial;
+  list-style-type: initial;
 }
 
 .what-to-expect-main-sections {
-    margin: 2% 0;
-    padding: 1% 4%;
-    background-color:#ffffff9f;
-    width: 50%;
+  margin: 2% 0;
+  padding: 1% 4%;
+  background-color: #ffffff9f;
+  width: 50%;
 }
 
 .new-patient-button {
-    margin: 1% 0;
-    padding: 0 5%;
-    background-color: #583b1ffa;
-    height: 56px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #ffffff;
+  margin: 1% 0;
+  padding: 0 5%;
+  background-color: #583b1ffa;
+  height: 56px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .new-patient-button:hover {
-    background-color: #7a624d;
-    transition: background-color 0.2s ease;
+  background-color: #7a624d;
+  transition: background-color 0.2s ease;
 }
 
 /* Form submitted */
 #form-submitted {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #form-submitted p {
-    text-align: center;
-    margin: 2% 5%;
+  text-align: center;
+  margin: 2% 5%;
 }
 
 /* Policies */
 
 .main-policies section {
-    margin: 5%;
+  margin: 5%;
 }
 
 #policies-list {
@@ -907,597 +931,643 @@ select {
 }
 
 #policies-list li {
-    margin: 10px;
-    background-color: #ffffff;
-    border-radius: 120px;
-    width: auto;
-    white-space: nowrap;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 120px;
+  width: auto;
+  white-space: nowrap;
+}
+
+.policy-content {
+  padding-left: 40px;
+}
+
+.policy-content h5 {
+  font-size: 16px;
+  margin: 16px 0px;
+}
+
+.h5-p {
+  padding-left: 40px;
+}
+
+.policy-content ul {
+  padding-inline-start: 0px;
+}
+
+.policy-content ul li {
+  list-style-type: disc;
+}
+
+.policy-content ol ul {
+  padding-inline-start: 0px;
+  /* margin-block-start: initial; */
+}
+
+.policy-content li {
+  margin: 8px 0px;
+}
+
+.accordeon-button h3::before {
+  content: "+";
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f7aa03;
+}
+
+.accordeon-content {
+  display: none;
+}
+
+.accordeon-content.visible {
+  display: initial;
 }
 
 /* Responsive Breakpoints */
 @media (max-width: 1310px) {
-    header {
-        justify-content: initial;
-    }
+  header {
+    justify-content: initial;
+  }
 
-    nav {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .h1-layout-1 {
-        display: none;
-    }
+  .h1-layout-1 {
+    display: none;
+  }
 
-    .h1-layout-2 {
-        display: initial;
-    }
+  .h1-layout-2 {
+    display: initial;
+  }
 }
 
 @media (max-width: 1200px) {
-    /* Header */
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
+  /* Header */
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .title {
-        font-size: 20px;
-    }
-}    
+  .title {
+    font-size: 20px;
+  }
+}
 
 @media (max-width: 1091px) {
-    /* Header */
-    .title {
-        font-size: 19px;
-    }
+  /* Header */
+  .title {
+    font-size: 19px;
+  }
 
-    li.button {
-        margin-left: 10px;
-    }
+  li.button {
+    margin-left: 10px;
+  }
 
-    .what-to-expect-main-sections {
-        width: 80%;
-    }
-}    
+  .what-to-expect-main-sections {
+    width: 80%;
+  }
+}
 
 @media (max-width: 1000px) {
-    /* Header */
-    .logo-and-title {
-        max-width: 100%;
-    }
+  /* Header */
+  .logo-and-title {
+    max-width: 100%;
+  }
 
-    .links {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 0px;
-        margin: 0px 0px 10px 0px;
-    }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+  }
 
-    .h1-layout-1 {
-        display: initial;
-    }
+  .h1-layout-1 {
+    display: initial;
+  }
 
-    .h1-layout-2 {
-        display: none;
-    }
+  .h1-layout-2 {
+    display: none;
+  }
 
-    header {
-        flex-direction: column;
-    }
+  header {
+    flex-direction: column;
+  }
 
-    .title {
-        font-size: 19px;
-    }
+  .title {
+    font-size: 19px;
+  }
 
-    li.button {
-        margin: 10px 0;
-    }
+  li.button {
+    margin: 10px 0;
+  }
 
-    /* Main */
-    main {
-        margin-top: 240px;
-    }
+  /* Main */
+  main {
+    margin-top: 240px;
+  }
 
-    /* Prices */
-    .terms-text {
-        margin: 2% 10%;
-    }
+  /* Prices */
+  .terms-text {
+    margin: 2% 10%;
+  }
 
-    /* .service-section {
+  /* .service-section {
         margin: 10% 0;
     } */
 
-    .prices1 {
-        z-index: 1;
-        height: 30%;
-        /* top: 0px;  */
-        right: -20px;
-    }
+  .prices1 {
+    z-index: 1;
+    height: 30%;
+    /* top: 0px;  */
+    right: -20px;
+  }
 
-    .prices2 {
-        z-index: 0;
-        height: 60%;
-        top: 20%;
-        /* bottom: 0px; */
-    }
+  .prices2 {
+    z-index: 0;
+    height: 60%;
+    top: 20%;
+    /* bottom: 0px; */
+  }
 
-    .prices3 {
-        z-index: 0;
-        height: 70%;
-        right: 5%;
-        bottom: 0;
-    }
+  .prices3 {
+    z-index: 0;
+    height: 70%;
+    right: 5%;
+    bottom: 0;
+  }
 
-    .prices4 {
-        z-index: 1;
-        height: 35%;
-        left: 0px;
-        top: 5%;
-    }
+  .prices4 {
+    z-index: 1;
+    height: 35%;
+    left: 0px;
+    top: 5%;
+  }
 
-    .prices5 {
-        z-index: 1;
-        height: 30%;
-        right: 10%;
-        bottom: 15%;
-    }
+  .prices5 {
+    z-index: 1;
+    height: 30%;
+    right: 10%;
+    bottom: 15%;
+  }
 
-    .prices6 {
-        z-index: 0;
-        left: 5%;
-        top: 10%;
-        height: 50%;
-    }
-
-}    
+  .prices6 {
+    z-index: 0;
+    left: 5%;
+    top: 10%;
+    height: 50%;
+  }
+}
 
 @media (max-width: 900px) {
-    /* Header */
-    li.button {
-        margin: 10px;
-        padding: 2px 15px;
-    }
+  /* Header */
+  li.button {
+    margin: 10px;
+    padding: 2px 15px;
+  }
 
-    li.plain {
-        font-size: 15px;
-    }
+  li.plain {
+    font-size: 15px;
+  }
 
-    /* Client quotes */
-    .client-quotes {
+  /* Client quotes */
+  .client-quotes {
     text-align: center;
     background-color: #ffffff;
     padding: 20px 40px;
     font-size: 22px;
     font-weight: 300;
-    }
+  }
 
-    /* Meet the Team */
-    .physio-photo {
-        align-items: baseline;
-    }
+  /* Meet the Team */
+  .physio-photo {
+    align-items: baseline;
+  }
 
-    /* Prices */
+  /* Prices */
 
-    .services-text {
-        margin: 0 2%;
-    }
-    .prices1 {
-        z-index: 1;
-        height: 30%;
-        /* top: 0px;  */
-        right: -20px;
-    }
+  .services-text {
+    margin: 0 2%;
+  }
+  .prices1 {
+    z-index: 1;
+    height: 30%;
+    /* top: 0px;  */
+    right: -20px;
+  }
 
-    .prices2 {
-        z-index: 0;
-        height: 60%;
-        top: 20%;
-        /* bottom: 0px; */
-    }
+  .prices2 {
+    z-index: 0;
+    height: 60%;
+    top: 20%;
+    /* bottom: 0px; */
+  }
 
-    .prices3 {
-        z-index: 0;
-        height: 60%;
-        right: 5%;
-        bottom: 10%;
-    }
+  .prices3 {
+    z-index: 0;
+    height: 60%;
+    right: 5%;
+    bottom: 10%;
+  }
 
-    .prices4 {
-        z-index: 1;
-        height: 30%;
-        left: 0px;
-        top: 5%;
-    }
+  .prices4 {
+    z-index: 1;
+    height: 30%;
+    left: 0px;
+    top: 5%;
+  }
 
-    .prices5 {
-        z-index: 1;
-        height: 30%;
-        right: 10%;
-        bottom: 15%;
-    }
+  .prices5 {
+    z-index: 1;
+    height: 30%;
+    right: 10%;
+    bottom: 15%;
+  }
 
-    .prices6 {
-        z-index: 0;
-        left: 5%;
-        top: 20%;
-        height: 40%;
-    }
-
-}   
+  .prices6 {
+    z-index: 0;
+    left: 5%;
+    top: 20%;
+    height: 40%;
+  }
+}
 
 @media (max-width: 800px) {
-    /* Header */
-    header {
-        padding-left: 0px;
-        padding-right: 30px;
-    }
+  /* Header */
+  header {
+    padding-left: 0px;
+    padding-right: 30px;
+  }
 
-    .title {
-        font-size: 16px;
-    }
+  .title {
+    font-size: 16px;
+  }
 
-    li.plain {
-        font-size: 15px;
-    }
+  li.plain {
+    font-size: 15px;
+  }
 
-    header {
-        max-width: 100%;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-    }
+  header {
+    max-width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .header-logo {
-        width: 100px;
-    }
+  .header-logo {
+    width: 100px;
+  }
 
-    .title {
-        margin: 0px;
-        padding: 10px;
-        font-size: 18px;
-    }
+  .title {
+    margin: 0px;
+    padding: 10px;
+    font-size: 18px;
+  }
 
-    .links .button {
-        width: 220px;
-        margin-left: 150px;
-        margin-right: 150px;
-    }
+  .links .button {
+    width: 220px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
 
-    li.button {
-        margin-left: 0px;
-        height: 35px
-    }
+  li.button {
+    margin-left: 0px;
+    height: 35px;
+  }
 
-    /* Main */
-    main {
-        margin-top: 215px;
-    }
+  /* Main */
+  main {
+    margin-top: 215px;
+  }
 
-    /* Services */
-    #services {
-        scroll-margin-top: 225px;
-        flex-direction: column;
-    }
+  /* Services */
+  #services {
+    scroll-margin-top: 225px;
+    flex-direction: column;
+  }
 
-    .potential {
-        flex-direction: column-reverse;
-    }
+  .potential {
+    flex-direction: column-reverse;
+  }
 
-    .services-image img, .potential-image img {
-        height: 500px;
-        width: 80%;
-        border-radius: 20px;
-    }
+  .services-image img,
+  .potential-image img {
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+  }
 
-    /* Prices */
-    .service-section {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-between;
-    } 
+  /* Prices */
+  .service-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    .prices-text {
-        width: 90%;
-        justify-content: center;
-        align-items: center;
-    }
+  .prices-text {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .prices-image-banner img {
+    position: initial;
+  }
 
-    .prices-image-banner img {
-        position: initial;
-    }
-
-    /* .prices1 {
+  /* .prices1 {
         height: 30%;
     } */
 
-    .prices1, .prices4, .prices5 {
-        height: 150px;
-        margin-bottom: 10px;
-    }
+  .prices1,
+  .prices4,
+  .prices5 {
+    height: 150px;
+    margin-bottom: 10px;
+  }
 
-    .prices2, .prices3, .prices6  {
-        display: none;
-    }
+  .prices2,
+  .prices3,
+  .prices6 {
+    display: none;
+  }
 
-
-    /* .prices4 {
+  /* .prices4 {
         z-index: 1;
         height: 30%;
         left: 0px;
         top: 5%;
     } */
 
-    /* .prices5 {
+  /* .prices5 {
         z-index: 1;
         height: 30%;
         right: 10%;
         bottom: 15%;
     } */
 
+  /* Contact Us */
+  .contact-us-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-    /* Contact Us */
-    .contact-us-text {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+  /* Footer */
+  .logo-images img {
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+  }
 
-    /* Footer */
-    .logo-images img {
-        min-width: 0;
-        max-width: 100%;
-        height: auto;
-    }
+  /* Meet the Team */
+  .physio-profile {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    /* Meet the Team */
-    .physio-profile {
-        flex-direction: column;
-        align-items: center;
-    }
+  .physio-text {
+    width: 95%;
+  }
 
-    .physio-text {
-        width: 95%;
-    }
-
-    .physio-photo {
-        width: 40%;
-    }
-}   
+  .physio-photo {
+    width: 40%;
+  }
+}
 
 @media (max-width: 750px) {
-    .contact-form-row {
-        flex-direction: column;
-        align-items: center;
-    }
+  .contact-form-row {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 700px) {
+  .image-banner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2, auto);
+    width: 100%;
+    place-items: center;
+  }
 
-    .image-banner {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: repeat(2, auto);
-        width: 100%;
-        place-items: center;
-    }
-    
-    .image-banner img {
-        width: 200px;
-        height: 133px;
-        margin: 2px;
-        overflow-x: auto;
-        white-space: nowrap;
-        align-items: center;
-    }
+  .image-banner img {
+    width: 200px;
+    height: 133px;
+    margin: 2px;
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: center;
+  }
 
-    footer section {
-        width: 100%;
-    }
+  footer section {
+    width: 100%;
+  }
 
-    .footer-info-sections {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .footer-info-sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .footer-info-sections > :last-child {
-        grid-column: 1 / -1;
-        justify-self: center;
-    }
+  .footer-info-sections > :last-child {
+    grid-column: 1 / -1;
+    justify-self: center;
+  }
 }
 
 @media (max-width: 600px) {
+  .links {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    place-items: center;
+  }
 
+  .plain {
+    width: fit-content;
+  }
 
-    .links {
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        place-items: center;
-    }
+  .links > :last-child {
+    grid-column: 2;
+  }
 
-    .plain {
-        width: fit-content;
-    }
+  .physio-profile-text {
+    margin: 0 10%;
+  }
 
-    .links > :last-child {
-        grid-column: 2;
-    }
+  /* Main */
+  main {
+    margin-top: 250px;
+  }
 
-    .physio-profile-text {
-        margin: 0 10%;
-    }
-
-        /* Main */
-    main {
-        margin-top: 250px;
-    }
-
-    .welcome-h2 {
-        font-size: 38px;
-    }
+  .welcome-h2 {
+    font-size: 38px;
+  }
 }
 
-
 @media (max-width: 500px) {
-    /* Header */
-    .links .plain {
-        padding-left: 5px;
-    }
+  /* Header */
+  .links .plain {
+    padding-left: 5px;
+  }
 
-    /* Main */
-    .welcome-h2 {
-        font-size: 30px;
-    }
+  /* Main */
+  .welcome-h2 {
+    font-size: 30px;
+  }
 
-    /* Footer */
-    .footer-info-sections {
-        display: flex;
-        flex-direction: column;
-    }
+  /* Footer */
+  .footer-info-sections {
+    display: flex;
+    flex-direction: column;
+  }
 
-    footer section {
-        width: 100%;
-    }
+  footer section {
+    width: 100%;
+  }
 }
 
 @media (max-width: 430px) {
-    /* Header */
-    header {
-        max-width: 100%;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-    }
+  /* Header */
+  header {
+    max-width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    /* Main */
-    .welcome-h2 {
-        font-size: 26px;
-    }
+  /* Main */
+  .welcome-h2 {
+    font-size: 26px;
+  }
 
-    .header-logo {
-        width: 100px;
-    }
+  .header-logo {
+    width: 100px;
+  }
 
-    .logo-and-title {
-        max-width: 100%;
-    }
+  .logo-and-title {
+    max-width: 100%;
+  }
 
-    .title {
-        margin: 0px;
-        padding: 10px;
-        font-size: 15px;
-    }
+  .title {
+    margin: 0px;
+    padding: 10px;
+    font-size: 15px;
+  }
 
-    .links {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 0px;
-        margin: 0px 0px 10px 0px;
-    }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+  }
 
-    .links .button {
-        flex: 1 1 100%; 
-        margin-left: 100px;
-        margin-right: 100px;
-    }
+  .links .button {
+    flex: 1 1 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 
-    li.button {
-        margin-left: 0px;
-        height: 35px
-    }
+  li.button {
+    margin-left: 0px;
+    height: 35px;
+  }
 }
 
 @media (max-width: 350px) {
-    /* Header */
-    header {
-        height: 250px;
-    }
+  /* Header */
+  header {
+    height: 250px;
+  }
 }
 
 @media (max-width: 430px) {
-    /* Main */
-    .logo-images {
-        padding: 5px;
-        height:fit-content;
-    }
+  /* Main */
+  .logo-images {
+    padding: 5px;
+    height: fit-content;
+  }
 
-    .logo-images img {
-        height: 100px;
-        width: auto;
-    }
+  .logo-images img {
+    height: 100px;
+    width: auto;
+  }
 
-    .footer-logo3 {
-        width: 150px;
-        height: auto;
-    }
+  .footer-logo3 {
+    width: 150px;
+    height: auto;
+  }
 
-    /* Home */
-    .image-banner {
-        display: none;
-    }
+  /* Home */
+  .image-banner {
+    display: none;
+  }
 
-    .potential-image {
-        display: none;
-    }
+  .potential-image {
+    display: none;
+  }
 
-    .services-image {
-        display: none;
-    }
+  .services-image {
+    display: none;
+  }
 
-    .client-quotes {
-        padding: 20px 0px 20px 0px;
-    }
+  .client-quotes {
+    padding: 20px 0px 20px 0px;
+  }
 
-    /* Meet the Team */
-    .physio-profile-text{
-        margin: 0px 20px 0px 20px;
-    }
+  /* Meet the Team */
+  .physio-profile-text {
+    margin: 0px 20px 0px 20px;
+  }
 
-    .claire-photo, .lauren-photo {
-        width: 360px
-    }
+  .claire-photo,
+  .lauren-photo {
+    width: 360px;
+  }
 
-    /* Terms */
-    form, .fieldset {
-        width: 350px;
-    }
+  /* Terms */
+  form,
+  .fieldset {
+    width: 350px;
+  }
 
-    /* Contact Us */
-    .contact-us-text {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+  /* Contact Us */
+  .contact-us-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .form4 {
-        height: 150px;
-    }
-    .services-label, #services, .textarea-concerns {
-        margin-bottom: 10px;
-    }
-    .same-address {
-        width: 300px;
-    }
+  .form4 {
+    height: 150px;
+  }
+  .services-label,
+  #services,
+  .textarea-concerns {
+    margin-bottom: 10px;
+  }
+  .same-address {
+    width: 300px;
+  }
 
-    .textarea-concerns {
-        margin-top: 50px;
-    }
+  .textarea-concerns {
+    margin-top: 50px;
+  }
 }
 
 /* Dynamic styling */
 .current {
-    text-decoration: underline;
-    text-underline-offset: 7px;
-    text-decoration-thickness: 1px;
+  text-decoration: underline;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 1px;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
